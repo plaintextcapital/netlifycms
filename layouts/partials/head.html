@@ -1,30 +1,27 @@
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="{{ .Site.Params.metaDescription }}" />
-
     <title>{{ .Site.Params.title }}</title>
-
+    <meta name="description" content="{{ .Site.Params.metaDescription }}" />
+    <meta property="og:title" content="Plaintext Capital"/>
+    <meta name="twitter:title" content="Plaintext Capital"/>
+    <meta property="og:description" content=" Investing in crypto in a simple &amp; repeatable way"/>
+    <meta name="twitter:description" content=" Investing in crypto in a simple &amp; repeatable way"/>
+    <meta property="og:image" content="https://www.plaintextcapital.com/images/LOGO_CUADRADO00.gif"/>
+    <meta name="twitter:image" content="https://www.plaintextcapital.com/images/LOGO_CUADRADO00.gif"/>
+    <meta property="og:type" content="website"/>
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta property="twitter:url" content="https://www.plaintextcapital.com/"/>
+    <meta property="twitter:domain" content="plaintextcapital.com"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="icon" href="/images/Gif.png"/>
+    <meta name="next-head-count" content="16"/>
     <!-- Generate CSS -->
     {{ $options := (dict "enableSourceMap" true ) }}
-    {{ $normalizeSass := resources.Get "normalize.scss" }}
-    {{ $normalizeStyle := $normalizeSass | resources.ToCSS $options  | resources.Fingerprint }}
-
-    {{ $mainSass := resources.Get "main.scss" }}
-    {{ $mainStyle := $mainSass | resources.ToCSS $options | resources.Fingerprint }}
-
+    {{ $mainCss := resources.Get "main.css" }}
+    {{ $mainStyle := $mainCss }}
     {{ $mainJs := resources.Get "main.js" }}
-
-    <link rel="stylesheet" href="{{ $normalizeStyle.RelPermalink }}" integrity="{{ $normalizeStyle.Data.Integrity }}">
-    <link rel="stylesheet" href="{{ $mainStyle.RelPermalink }}" integrity="{{ $mainStyle.Data.Integrity }}">
-
-    <!-- Font Awesome -->
-    {{ $fontAwesomeSass := resources.Get "font-awesome.scss" }}
-    {{ $fontAwesomeStyle := $fontAwesomeSass | resources.ToCSS  $options | resources.Fingerprint }}
-    <link rel="stylesheet" href="{{ $fontAwesomeStyle.RelPermalink }}" integrity="{{ $fontAwesomeStyle.Data.Integrity }}">
-    <!-- <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.css" rel="stylesheet" > -->
-
+    <link rel="preload" href="{{ $mainStyle.RelPermalink }}" integrity="{{ $mainStyle.Data.Integrity }}" as="style"/>
+    <link rel="stylesheet" href="{{ $mainStyle.RelPermalink }}" integrity="{{ $mainStyle.Data.Integrity }}"/>
     <script src="{{$mainJs.RelPermalink}}"></script>
-
 </head>

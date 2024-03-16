@@ -1,0 +1,50 @@
+baseURL : 'https://roneo.itcouldbewor.se/'
+languageCode : 'en-us'
+
+disableKinds:
+- taxonomy
+
+menus:
+  main:
+  - name : Home
+    pageRef : /
+    weight : 10
+  - name : 'Writing & Podcast'
+    pageRef : /blog
+    weight : 20
+  - name : Philosophy
+    pageRef : /philosophy
+    weight : 30
+  - name : Team
+    pageRef : /team
+    weight : 40
+  - name : Contact
+    pageRef : /learn-more
+    weight : 50
+
+  secondary:
+    - name : Newsletter
+      pageRef : '#'
+      weight : 60
+
+  mobile:
+  - name : Home
+    pageRef : /
+    weight : 10
+  - name : 'Writing & Podcast'
+    pageRef : /blog
+    weight : 20
+  - name : Philosophy
+    pageRef : /philosophy
+    weight : 30
+  - name : Team
+    pageRef : /team
+    weight : 40
+  - name : Contact
+    pageRef : /learn-more
+    weight : 50
+
+  mobile-secondary:
+    - name : Newsletter
+      pageRef : '#'
+      weight : 60

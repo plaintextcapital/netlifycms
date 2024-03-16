@@ -1,32 +1,104 @@
-{{ $data := index site.Data site.Language.Lang}}
-{{ $data := index site.Data.home  site.Language.Lang }}
-
-{{ $ := index site.Data.header site.Language.Lang }}
-{{ $glossary := index site.Data.glossary site.Language.Lang }}
-
-<section class="section sec1" id="home">
-    <div class="left-header">
-        <div class="h-shape"></div>
-        <img src="{{$data.image}}" class="image">
-    </div>
-    <div class="right-header">
-        <h1 class="name">{{ $data.title | safeHTML }}</h1>
-        <p>{{ $data.shortDescription }}</p>
-        <div class="btn-container-group">
-          <div class="btn-container">
-            <a href="#product"  data-id="product">
-                <span class="btn-text">{{$glossary.cta1}}</span>
-                <span class="btn-icon"><i class="fas fa-angle-down"></i></span>
-                <i class="bg"></i>
-            </a>
-          </div>
-          <div class="btn-container">
-            <a href="https://github.com/RoneoOrg/hugo-remix-one-click-netlify-cms#readme"  data-id="product" target="blank">
-                <span class="btn-text">{{$glossary.cta2}}</span>
-                <span class="btn-icon btn-icon-deploy"><i class="fas fa-rocket"></i></span>
-                <i class="bg"></i>
-            </a>
+<main id="main" class="sb-layout sb-page-layout">
+  <h1 class="sr-only" data-sb-field-path="title">Plaintext Capital</h1>
+  <div data-sb-field-path="sections">
+    <div data-sb-field-path="sections.0" class="sb-component sb-component-section sb-component-hero-section colors-a flex flex-col justify-center mt-0 mb-0 ml-0 mr-0 border-none hero_wrapper">
+      <div class="flex w-full justify-center">
+        <div class="w-full max-w-screen-xl">
+          <div class="flex flex-col px-4">
+            <div class="flex-1 m-auto">
+              <a href="/blog/">
+                <img class="sb-component sb-component-block sb-component-image-block hero_img" src="/images/LOGO_CUADRADO_LENTO_SHORT_OK.gif" alt="PlainTextLogo" draggable="false" data-sb-field-path=".media .media.url#@src .media.altText#@alt .media.elementId#@id">
+              </a>
+            </div>
+            <div class="flex-1 w-full">
+              <div>
+                <div class="">
+                  <h1 data-sb-field-path=".title" class="hero_title mt-7 lg:mt-2 h1 flex-1 w-full text-center text-left md:mt-12">
+                    <span class="word-wrapper" style="display: inline-flex;">
+                      <span style="display: inline-block;">
+                        <span style="display: inline-block; opacity: 1;">D</span>
+                      </span>
+                      <span style="display: inline-block;">
+                        <span style="display: inline-block; opacity: 1;">e</span>
+                      </span>
+                      <span style="display: inline-block;">
+                        <span style="display: inline-block; opacity: 1;">c</span>
+                      </span>
+                      <span style="display: inline-block;">
+                        <span style="display: inline-block; opacity: 1;">o</span>
+                      </span>
+                      <span style="display: inline-block;">
+                        <span style="display: inline-block; opacity: 1;">d</span>
+                      </span>
+                      <span style="display: inline-block;">
+                        <span style="display: inline-block; opacity: 1;">i</span>
+                      </span>
+                      <span style="display: inline-block;">
+                        <span style="display: inline-block; opacity: 1;">n</span>
+                      </span>
+                      <span style="display: inline-block;">
+                        <span style="display: inline-block; opacity: 1;">g</span>
+                      </span>
+                    </span>
+                    <span class="word-wrapper" style="display: inline-flex;">
+                      <span style="display: inline-block;">
+                        <span style="display: inline-block; opacity: 1;">c</span>
+                      </span>
+                      <span style="display: inline-block;">
+                        <span style="display: inline-block; opacity: 1;">r</span>
+                      </span>
+                      <span style="display: inline-block;">
+                        <span style="display: inline-block; opacity: 1;">y</span>
+                      </span>
+                      <span style="display: inline-block;">
+                        <span style="display: inline-block; opacity: 1;">p</span>
+                      </span>
+                      <span style="display: inline-block;">
+                        <span style="display: inline-block; opacity: 1;">t</span>
+                      </span>
+                      <span style="display: inline-block;">
+                        <span style="display: inline-block; opacity: 1;">o</span>
+                      </span>
+                    </span>
+                    <span class="word-wrapper" style="display: inline-flex;">
+                      <span style="display: inline-block;">
+                        <span style="display: inline-block; opacity: 1;">i</span>
+                      </span>
+                      <span style="display: inline-block;">
+                        <span style="display: inline-block; opacity: 1;">n</span>
+                      </span>
+                      <span style="display: inline-block;">
+                        <span style="display: inline-block; opacity: 1;">v</span>
+                      </span>
+                      <span style="display: inline-block;">
+                        <span style="display: inline-block; opacity: 1;">e</span>
+                      </span>
+                      <span style="display: inline-block;">
+                        <span style="display: inline-block; opacity: 1;">s</span>
+                      </span>
+                      <span style="display: inline-block;">
+                        <span style="display: inline-block; opacity: 1;">t</span>
+                      </span>
+                      <span style="display: inline-block;">
+                        <span style="display: inline-block; opacity: 1;">i</span>
+                      </span>
+                      <span style="display: inline-block;">
+                        <span style="display: inline-block; opacity: 1;">n</span>
+                      </span>
+                      <span style="display: inline-block;">
+                        <span style="display: inline-block; opacity: 1;">g</span>
+                      </span>
+                      <span style="display: inline-block;">
+                        <span style="display: inline-block; opacity: 1;">&nbsp;</span>
+                      </span>
+                    </span>
+                  </h1>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+      </div>
     </div>
-</section>
+  </div>
+</main>

@@ -1,26 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<!-- head link and script -->
 {{ partial "head.html" .}}
-
 <body>
-    <!-- navigation header -->
-    {{ partial "header.html" .}}
-
-    <!-- section list -->
-    <div class="main-content">
-        {{ partial "home.html" .}}
-        {{ partial "products.html" .}}
-        {{ partial "about.html" .}}
-        <!-- {{ partial "scenes.html" .}} -->
-        {{ partial "news.html" .}}
-        {{ partial "contact.html" .}}
+{{ if .IsHome }}
+    <div class="sb-page page-index">
+        <div class="sb-base sb-default-base-layout">
+            {{ partial "header.html" .}}
+            {{ partial "home.html" .}}
+{{ else }}
+    <div class="sb-page page-{{ page.Slug }}">
+        <div class="sb-base sb-default-base-layout">
+            {{ partial "header.html" .}}
+{{ end }}
+{{ partial "footer.html" .}}
     </div>
-
-    <!-- footer copyright -->
-    {{ partial "footer.html" .}}
-
+</div>
 </body>
-
 </html>
