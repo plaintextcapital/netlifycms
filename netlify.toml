@@ -2,3 +2,4 @@
   command = "hugo"
   functions = "netlify/functions"
   publish = "public"
+  # functions = "functions"
