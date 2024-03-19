@@ -9,7 +9,7 @@
                 </a>
               </div>
 
-              {{ with .Site.Menus.main }}
+              {{ with ..Site.Menus.main }}
                 <ul class="hidden lg:flex lg:items-center space-x-16 absolute left-1/2 top-1/2 transform -translate-y-1/2 -translate-x-1/2 w-auto">
                   {{ range . }}
                     <li>
@@ -20,7 +20,7 @@
                   {{ end }}
                 </ul>
               {{ end }}
-              {{ with site.Menus.secondary }}
+              {{ with .Site.Menus.secondary }}
                 <ul class="hidden lg:flex lg:items-center ml-auto space-x-8">
                   {{ range . }}
                   <li>
@@ -52,7 +52,7 @@
                       </button>
                     </div>
 
-                    {{ with site.Menus.mobile }}
+                    {{ with .Site.Menus.mobile }}
                       <ul class="flex-grow mb-10 space-y-6">
                         {{ range . }}
                         <li>
@@ -64,7 +64,7 @@
                       </ul>
                     {{ end }}
 
-                    {{ with site.Menus.mobile }}
+                    {{ with .Site.Menus.mobile }}
                     <ul class="mb-10 space-y-5">
                       {{ range . }}
                       <li>
