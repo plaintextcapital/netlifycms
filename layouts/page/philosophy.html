@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en-us">
-{{ partial "head.html" .}}
+{{ partial "head.html" . }}
 <body>
 <div class="sb-page page-{{ .Slug }}" style="overflow: hidden;">
     <div class="sb-base sb-default-base-layout">
-{{ partial "header.html" .}}
+{{ partial "header.html" . }}
 <main id="main" class="sb-layout sb-page-layout">
   <h1 class="sr-only" data-sb-field-path="title">Philosophy</h1>
   <div data-sb-field-path="sections">
@@ -35,7 +35,7 @@
     </div>
   </div>
 </main>
-{{ partial "footer.html" .}}
+{{ partial "footer.html" . }}
     </div>
 </div>
 </body>

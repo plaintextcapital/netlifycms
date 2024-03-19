@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-{{ partial "head.html" .}}
+{{ partial "head.html" . }}
 <body>
   <div class="sb-page page-{{ .Slug }}" style="overflow: hidden;">
       <div class="sb-base sb-default-base-layout">
-        {{ partial "header.html" .}}
+        {{ partial "header.html" . }}
         <main id="main" class="layout page-layout">
           <div data-sb-field-path="postFeed" class="sb-component sb-component-section sb-component-post-feed-section colors-a flex flex-col justify-center relative min-h-0 pt-0 pl-4 pr-4 pb-12 border-none">
             <div class="flex w-full justify-center">
@@ -65,7 +65,7 @@
             </div>
           </div>
         </main>
-        {{ partial "footer.html" .}}
+        {{ partial "footer.html" . }}
       </div>
   </div>
 </body>

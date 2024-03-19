@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-{{ partial "head.html" .}}
+{{ partial "head.html" . }}
 <body>
     {{ if .IsHome }}
     <div class="sb-page page-index">
         <div class="sb-base sb-default-base-layout">
-            {{ partial "header.html" .}}
-            {{ partial "home.html" .}}
+            {{ partial "header.html" . }}
+            {{ partial "home.html" . }}
     {{ else }}
     <div class="sb-page page-{{ .Slug }}">
         <div class="sb-base sb-default-base-layout">
@@ -17,7 +17,7 @@
             </ul>
             {{ end }}
     {{ end }}
-    {{ partial "footer.html" .}}
+    {{ partial "footer.html" . }}
     </div>
 </div>
 </body>
