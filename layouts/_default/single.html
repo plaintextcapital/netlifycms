@@ -1,0 +1,23 @@
+{{ define "main" }}
+<main id="main" class="sb-layout sb-post-layout">
+  <article class="colors-a px-4 sm:px-8 py-14 lg:py-20">
+    <div class="relative">
+      <header class="max-w-screen-lg mx-auto mb-12 text-center">
+        <div class="text-lg mb-4">
+          <time datetime="2023-12-05 00:00:00" data-sb-field-path="date">{{ .Date.Format .Site.Params.dateFormat }}</time>
+        </div>
+        <h1 data-sb-field-path="title">{{ .Title }}</h1>
+        <div class="post_author mt-6 text-lg">
+          By
+          <span data-sb-field-path="author">
+              <b>{{ .Params.author }}</b>
+          </span>
+        </div>
+      </header>
+      <div class="sb-markdown max-w-screen-lg mx-auto" data-sb-field-path="markdown_content">
+        {{ .Content }}
+      </div>
+    </div>
+  </article>
+</main>
+{{ end }}
