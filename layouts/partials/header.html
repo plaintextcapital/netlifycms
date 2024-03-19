@@ -9,7 +9,7 @@
                 </a>
               </div>
 
-              {{ with site.Menus.main }}
+              {{ with .Site.Menus.main }}
                 <ul class="hidden lg:flex lg:items-center space-x-16 absolute left-1/2 top-1/2 transform -translate-y-1/2 -translate-x-1/2 w-auto">
                   {{ range . }}
                     <li>
