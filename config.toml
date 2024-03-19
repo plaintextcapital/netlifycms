@@ -34,5 +34,5 @@ languageCode = 'en-US'
 
 [[menus.secondary]]
   name = 'Newsletter'
-  pageRef = '#'
+  pageRef = '!#'
   weight = 60
