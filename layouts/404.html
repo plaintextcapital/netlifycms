@@ -1,11 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
 {{ partial "head.html" . }}
 {{ partial "header.html" . }}
-<body>
-<h1>Page Not Found</h1>
-<p>This page doesn't exist.</p>
-<p><a href="/">Go Back to the home page</a></p>
+<main id="main" class="sb-layout sb-page-layout">
+  <h1 class="sr-only" data-sb-field-path="title">{{ .Title }}</h1>
+  <div data-sb-field-path="sections">
+    <div data-sb-field-path="sections.0" class="sb-component sb-component-section sb-component-hero-section colors-a flex flex-col justify-center mt-0 mb-0 ml-0 mr-0 border-none hero_wrapper">
+      <div class="flex w-full justify-center">
+        <div class="w-full max-w-screen-xl">
+          <div class="flex flex-col px-4">
+              <h2>{{ .Title }}</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
 {{ partial "footer.html" . }}
-</body>
-</html>

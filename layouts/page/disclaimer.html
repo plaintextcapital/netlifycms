@@ -1,23 +1,14 @@
-<!DOCTYPE html>
-<html lang="en-us">
 {{ partial "head.html" . }}
-<body>
-<div class="sb-page page-{{ .Slug }}">
-    <div class="sb-base sb-default-base-layout">
-      {{ partial "header.html" . }}
-      <main id="main" class="sb-layout sb-page-layout">
-        <h1 class="sr-only" data-sb-field-path="title">Plaintext | Discalimer</h1>
-        <div data-sb-field-path="sections">
-          <div class="disclaimer pl-6 pr-6 pb-8 m-auto mb-8 pt-4 max-w-3xl md:mt-12">
-            <h1 class="disclaimer-title g-title mb-7 text-center md:text-4xl md:mb-10">{{ .Title }}</h1>
-            <p class="disclaiemr-text postItem !leading-5 md:text-base md:!leading-8" style="line-height: 2rem!important;">
-              {{ .Page.Params.sections.text }}
-            </p>
-          </div>
-        </div>
-      </main>
-      {{ partial "footer.html" . }}
+{{ partial "header.html" . }}
+<main id="main" class="sb-layout sb-page-layout">
+  <h1 class="sr-only" data-sb-field-path="title">Plaintext | Discalimer</h1>
+  <div data-sb-field-path="sections">
+    <div class="disclaimer pl-6 pr-6 pb-8 m-auto mb-8 pt-4 max-w-3xl md:mt-12">
+      <h1 class="disclaimer-title g-title mb-7 text-center md:text-4xl md:mb-10">{{ .Title }}</h1>
+      <p class="disclaiemr-text postItem !leading-5 md:text-base md:!leading-8" style="line-height: 2rem!important;">
+        {{ .Page.Params.sections.text }}
+      </p>
     </div>
-</div>
-</body>
-</html>
+  </div>
+</main>
+{{ partial "footer.html" . }}
