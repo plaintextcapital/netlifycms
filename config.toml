@@ -1,16 +1,16 @@
 baseURL = 'https://plaintextdecap.netlify.app/'
 languageCode = 'en-US'
-defaultContentLanguage = "en"
-defaultContentLang = "en"
+defaultContentLanguage = 'en'
+defaultContentLang = 'en'
 
 [taxonomies]
   category = 'categories'
 
 [permalinks]
-  categories = "/:section/:slug"
+  categories = '/:section/:slug'
 
 [params]
-  dateFormat = "Jan 2, 2006"
+  dateFormat = 'Jan 2, 2006'
 
 [menus]
 [[menus.main]]
