@@ -2,7 +2,7 @@
 <html lang="en-us">
 {{ partial "head.html" .}}
 <body>
-<div class="sb-page page-{{ page.Slug }}">
+<div class="sb-page page-{{ .Slug }}">
     <div class="sb-base sb-default-base-layout">
       {{ partial "header.html" .}}
       <main id="main" class="sb-layout sb-page-layout">
