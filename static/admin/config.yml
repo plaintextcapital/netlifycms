@@ -18,19 +18,16 @@ collections:
     folder: "content/blog"
     slug: '{{slug}}'
     create: true
-    sort: 'publish_date'
+    sort: 'date'
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime"}
       - { label: "Featured Image", name: "image", widget: "image", required: false}
       - { label: "Categories", name: "Category", widget: "string" }
       - { label: ".", name: "body", widget: "markdown" }
-  - name: "pages"
-    label: "Pages"
-    files:
-    - name: "philosophy"
-      label: "Philosophy"
-      file: "content/philosophy.md"
-      fields:
-        - { label: "Title", name: "title", widget: "string" }
-        - { label: "Body", name: "body", widget: "markdown" }
+  - name: "philosophy"
+    label: "Philosophy"
+    file: "content/philosophy.md"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
