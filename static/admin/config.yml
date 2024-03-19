@@ -16,7 +16,7 @@ collections:
   - name: "blog"
     label: "Blog"
     folder: "content/blog"
-    slug: '{{slug}}'
+    slug: 'content/blog/{{slug}}'
     create: true
     sort: 'date'
     fields:
