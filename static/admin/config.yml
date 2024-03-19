@@ -25,9 +25,26 @@ collections:
       - { label: "Featured Image", name: "image", widget: "image", required: false}
       - { label: "Categories", name: "Category", widget: "string" }
       - { label: ".", name: "body", widget: "markdown" }
-  - name: "philosophy"
-    label: "Philosophy"
-    file: "content/philosophy.md"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "Philsophy Page"
+        name: "philsophy"
+        file: "content/philsophy.md"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: ".", name: "body", widget: "markdown" }
+      - label: "Team Page"
+        name: "team"
+        file: "site/content/team.md"
+        widget: list
+        fields:
+          - {label: Name, name: name, widget: string}
+          - {label: Position, name: position, widget: string}
+          - {label: Photo, name: photo, widget: image}
+      - label: "Contact Page"
+        name: "lean-more"
+        file: "site/content/lean-more.md"
+        fields:
+          - {label: Name, name: name, widget: string}
+          - {label: Address, name: address, widget: string}
