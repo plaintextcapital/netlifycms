@@ -11,7 +11,7 @@
       <ul class="hidden lg:flex lg:items-center space-x-16 absolute left-1/2 top-1/2 transform -translate-y-1/2 -translate-x-1/2 w-auto">
         {{ range site.Menus.main }}
         <li>
-          <a aria-label="{{ .Name }}" class="sb-component sb-component-block sb-component-link navbar_links" href="{{ . }}">
+          <a aria-label="{{ .Name }}" class="sb-component sb-component-block sb-component-link navbar_links" href="{{ .URL }}">
             <span>{{ .Name }}</span>
           </a>
         </li>
@@ -50,7 +50,7 @@
             <ul class="flex-grow mb-10 space-y-6">
               {{ range site.Menus.main }}
               <li>
-                <a aria-label="{{ .Name }}" class="sb-component sb-component-block sb-component-link navbar_links" href="{{ . }}">
+                <a aria-label="{{ .Name }}" class="sb-component sb-component-block sb-component-link navbar_links" href="{{ .URL }}">
                   <span>{{ .Name }}</span>
                 </a>
               </li>
