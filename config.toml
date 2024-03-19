@@ -13,26 +13,26 @@ languageCode = 'en-US'
 [menus]
 [[menus.main]]
   name = 'Home'
-  url = '/'
+  pageRef = '/'
   weight = 10
 [[menus.main]]
   name = 'Writing & Podcast'
-  url = '/blog'
+  pageRef = '/blog'
   weight = 20
 [[menus.main]]
   name = 'Philosophy'
-  url = '/philosophy'
+  pageRef = '/philosophy'
   weight = 30
 [[menus.main]]
   name = 'Team'
-  url = '/team'
+  pageRef = '/team'
   weight = 40
 [[menus.main]]
   name = 'Contact'
-  url = '/learn-more'
+  pageRef = '/learn-more'
   weight = 50
 
 [[menus.secondary]]
   name = 'Newsletter'
-  url = '#'
+  pageRef = '#'
   weight = 60
