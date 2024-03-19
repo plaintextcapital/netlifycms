@@ -2,7 +2,8 @@
 public
 resources/*
 .idea
-
+.DS_Store
 # Local Netlify folder
 .netlify
 .vscode/
+.DS_Store
