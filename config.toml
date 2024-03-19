@@ -1,7 +1,5 @@
 baseURL = 'https://plaintextdecap.netlify.app/'
 languageCode = 'en-US'
-defaultContentLanguage = 'en'
-defaultContentLang = 'en'
 
 [taxonomies]
   category = 'categories'
