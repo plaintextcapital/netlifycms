@@ -1,0 +1,66 @@
+baseURL = 'https://plaintextdecap.netlify.app/'
+languageCode = 'en-US'
+defaultContentLanguage = "en"
+defaultContentLang = "en"
+
+[taxonomies]
+  category = 'categories'
+
+[permalinks]
+  categories = "/:section/:slug"
+
+[params]
+  dateFormat = "Jan 2, 2006"
+
+[menus]
+[[menus.main]]
+  name = 'Home'
+  pageRef = '/'
+  weight = '10'
+[[menus.main]]
+  name = 'Writing & Podcast'
+  pageRef = '/blog'
+  weight = '20'
+[[menus.main]]
+  name = 'Philosophy'
+  pageRef = '/philosophy'
+  weight = '30'
+[[menus.main]]
+  name = 'Team'
+  pageRef = '/team'
+  weight = '40'
+[[menus.main]]
+  name = 'Contact'
+  pageRef = '/learn-more'
+  weight = '50'
+
+[[menus.secondary]]
+  name = 'Newsletter'
+  pageRef = '#'
+  weight = '60'
+
+[[menus.mobile]]
+  name = 'Home'
+  pageRef = '/'
+  weight = '10'
+[[menus.mobile]]
+  name = 'Writing & Podcast'
+  pageRef = '/blog'
+  weight = '20'
+[[menus.mobile]]
+  name = 'Philosophy'
+  pageRef = '/philosophy'
+  weight = '30'
+[[menus.mobile]]
+  name = 'Team'
+  pageRef = '/team'
+  weight = '40'
+[[menus.mobile]]
+  name = 'Contact'
+  pageRef = '/learn-more'
+  weight = '50'
+
+[[menus.mobile-secondary]]
+  name = 'Newsletter'
+  pageRef = '#'
+  weight = '60'
