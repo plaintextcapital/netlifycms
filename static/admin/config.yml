@@ -2,8 +2,8 @@
 backend:
   name: git-gateway
   branch: main
-media_folder: "/static/media" # Folder where user uploaded files should go
-public_folder: "/media"
+media_folder: "/static/images" # Folder where user uploaded files should go
+public_folder: "/images"
 editor:
   preview: false
 
@@ -14,56 +14,96 @@ local_backend: true
 # collections configuration
 collections:
   - name: "blog"
-    label: "Blog"
+    label: "Blog Post"
     folder: "content/blog"
     slug: '{{slug}}'
     create: true
     sort: 'date'
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime"}
+      - { label: "Publish Date", name: "date", widget: "date"}
       - { label: "Featured Image", name: "image", widget: "image", required: false}
-      - { label: "Categories", name: "Category", widget: "string" }
+      - { label: "Categories", name: "categories", widget: "select", options: ["Podcast", "Market Commentary", "Insights"] }
+      - { label: "Author", name: "author", widget: "select", options: ["Phil Bonello", "Andrés García", "Fran Oliva-Velez"] }
       - { label: ".", name: "body", widget: "markdown" }
   - name: "pages"
     label: "Pages"
     files:
-      - file: "content/philsophy/index.md"
-        name: "philsophy"
-        label: "Philsophy"
+      - file: "content/philosophy/index.md"
+        label: "Philosophy"
+        name: "philosophy"
         fields:
           - { label: Title, name: title, widget: string }
           - { label: ".", name: "body", widget: "markdown" }
       - file: "content/team/index.md"
-        name: "team"
         label: "Team"
+        name: "team"
         fields:
           - { label: Title, name: title, widget: string }
           - {
-              label: "Section",
-              name: "section",
-              widget: "object",
+              label: "Sections",
+              name: "sections",
+              widget: object,
               fields: [
-                { label: "Variant", name: "variant", widget: string },
-                { label: "Colors", name: "colors", widget: string },
                 {
-                  name: "profile",
-                  label: "Profile",
-                  widget: "object",
-                  fields: [
-                    { label: "Role", name: "role", widget: string },
-                    { label: "Name", name: "name", widget: string },
-                    { label: "X", name: "x", widget: string },
-                    { label: "In", name: "in", widget: string }
-                  ],
-                }
+                  label: type,
+                  name: type,
+                  widget: 'list',
+                  allow_add: false,
+                  collapsed: false,
+                  field: {
+                    label: 'Profile',
+                    name: 'profile',
+                    widget: 'list',
+                    fields: [
+                      { label: 'Role', name: 'role', widget: 'text' },
+                      { label: 'Name', name: 'name', widget: 'text' },
+                      { label: 'image', name: 'imageUrl', widget: 'image' },
+                      { label: 'X', name: 'x', widget: 'text' },
+                      { label: 'LinkedIn', name: 'in', widget: 'text' },
+                    ]
+                  }
+                },
               ],
             }
-          - { label: ".", name: "body", widget: "markdown" }
-      - file: "content/learn-more/index.md"
-        name: "contact"
-        label: "Contact"
+      - file: "content/disclaimer/index.md"
+        label: "Disclaimer"
+        name: "disclaimer"
         fields:
           - { label: Title, name: title, widget: string }
-          - { label: "Address", name: "address", widget: string }
-          - { label: ".", name: "body", widget: "markdown" }
+          - {
+              label: "Sections",
+              name: "sections",
+              widget: object,
+              fields: [
+                { label: Text, name: text, widget: 'markdown' }
+              ]
+            }
+      - file: "content/learn-more/index.md"
+        label: "Contact"
+        name: "contact"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - {
+              label: "Sections",
+              name: "sections",
+              summary: "Address, Email and Mail Destination Settings",
+              allow_add: false,
+              widget: list,
+              fields: [
+                { label: Address Label, name: titleAddress, widget: string },
+                { label: Address, name: address, widget: string },
+                { label: Email Label, name: titleEmail, widget: string },
+                { label: Email Address, name: email, widget: string },
+                {
+                  label: Form,
+                  name: form,
+                  widget: object,
+                  collapsed: true,
+                  summary: Your contact form is sent to this email address.,
+                  fields: [
+                    { label: Destination Email, name: destination, widget: string }
+                  ]
+                },
+              ]
+            }

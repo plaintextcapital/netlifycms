@@ -8,7 +8,7 @@ sections:
     elementId: ''
     variant: variant-a
     colors: colors-a
-    actions: []
+    actions: [test 1, test 2]
     profile:
     - role: CIO
       name: Phil Bonello
