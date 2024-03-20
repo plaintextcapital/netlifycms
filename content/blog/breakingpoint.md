@@ -1,14 +1,14 @@
 ---
 title: Breaking Point
-date: '2022-10-01'
-categories: 'Market Commentary'
-author: 'Phil Bonello'
+date: 2022-10-01
+categories: Market Commentary
+author: Phil Bonello
 ---
 ### "It's all one trade."
 
 For the last year, plummeting prices have been the result of a strengthening dollar and tightening liquidity. Almost everything, in dollar terms, has struggled.
 
-Year-over-year, major currencies of the world are down over double digits against USD such as the Euro (-16%), the Pound (-18%), and the Yen (-23%). As shown below, you would have been better off owning the S\&P 500 than the British Pound or Yen.
+Year-over-year, major currencies of the world are down over double digits against USD such as the Euro (-16%), the Pound (-18%), and the Yen (-23%). As shown below, you would have been better off owning the S&P 500 than the British Pound or Yen.
 
 ![](/images/dxy2.png)
 
@@ -16,7 +16,7 @@ Source: Tradingview
 
 US dollar strength is a mark of economic stress. As liquidity tightens, people and institutions sell their assets for dollars. The year-over-year change in the dollar index (DXY) is near historical highs.
 
-![](https://preview--plaintextcapital-2c6e7.stackbit.dev/\_static/app-assets/images/dxyoy.png)
+![](/images/dxyoy.png)
 
 The US 10-YR yield briefly touched 4%, the highest level since 2008. Yields have respected a 40-year downward trend, in part because inflation expectations have remained low and in part because the growing debt becomes heavier under rising rates; in other words, the economy starts to break.
 
@@ -24,7 +24,7 @@ The US 10-YR yield briefly touched 4%, the highest level since 2008. Yields have
 
 Source: Tradingview
 
-The VIX (top) and MOVE (bottom) indices which measure the volatility of the S\&P500 and US Bond Option market, respectively, show slightly different stories. The bond market has been erratic as noted with the rapidly rising yields and that is evident in the spike in bond volatility below. But the volatility in the equity market has been relatively muted despite the -24% YTD performance in the S\&P 500.
+The VIX (top) and MOVE (bottom) indices which measure the volatility of the S&P500 and US Bond Option market, respectively, show slightly different stories. The bond market has been erratic as noted with the rapidly rising yields and that is evident in the spike in bond volatility below. But the volatility in the equity market has been relatively muted despite the -24% YTD performance in the S&P 500.
 
 ![](/images/Screen%20Shot%202022-09-30%20at%203.52.35%20PM.png)
 
