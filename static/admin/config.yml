@@ -14,7 +14,8 @@ local_backend: true
 # collections configuration
 collections:
   - name: "blog"
-    label: "Blog Post"
+    label: "Blog Posts"
+    label_singular: "Blog Post"
     folder: "content/blog"
     slug: '{{slug}}'
     create: true
