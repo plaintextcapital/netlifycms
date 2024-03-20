@@ -27,8 +27,43 @@ collections:
       - { label: ".", name: "body", widget: "markdown" }
   - name: "pages"
     label: "Pages"
-    folder: "content/"
-    file: "content/philsophy.md"
-    fields:
-      - { label: Title, name: title, widget: string }
-      - { label: ".", name: "body", widget: "markdown" }
+    files:
+      - file: "content/philsophy/index.md"
+        name: "philsophy"
+        label: "Philsophy"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: ".", name: "body", widget: "markdown" }
+      - file: "content/team/index.md"
+        name: "team"
+        label: "Team"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - {
+              label: "Section",
+              name: "section",
+              widget: "object",
+              fields: [
+                { label: "Variant", name: "variant", widget: string },
+                { label: "Colors", name: "colors", widget: string },
+                {
+                  name: "profile",
+                  label: "Profile",
+                  widget: "object",
+                  fields: [
+                    { label: "Role", name: "role", widget: string },
+                    { label: "Name", name: "name", widget: string },
+                    { label: "X", name: "x", widget: string },
+                    { label: "In", name: "in", widget: string }
+                  ],
+                }
+              ],
+            }
+          - { label: ".", name: "body", widget: "markdown" }
+      - file: "content/learn-more/index.md"
+        name: "contact"
+        label: "Contact"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: "Address", name: "address", widget: string }
+          - { label: ".", name: "body", widget: "markdown" }
