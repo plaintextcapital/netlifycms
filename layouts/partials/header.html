@@ -1,8 +1,8 @@
-<body>
+<body class="ReactModal__Body--open">
   {{ if .IsHome }}
   <div class="sb-page page-index">
   {{ else }}
-  <div class="sb-page page-{{ .Slug }}">
+  <div class="sb-page page-{{ .Slug }}" data-sb-object-id="content/{{ .Slug }}.md">
   {{ end }}
     <div class="sb-base sb-default-base-layout">
       <header class="sb-component sb-component-header z-20 colors-a relative pt-5 pb-5 pr-4 pl-4" data-sb-field-path="content/data/config.json:header">

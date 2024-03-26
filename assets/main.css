@@ -2384,13 +2384,37 @@ option {
     margin:88px auto auto
 }
 
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes fadeInUp {
+  0% { transform: translateY(0%); opacity: 0; }
+  50% { transform: translateY(40%); opacity: 0; }
+  100% { transform: translateY(0%); opacity: 1; }
+}
+
+@keyframes fadeInLeft {
+  0% { transform: translateX(200px); opacity: 0; }
+  100% { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes inputSlideInRight {
+  0% { width: 0; opacity: 0; }
+  33% { width: 150px; opacity: 0; }
+  100% { width: 400px; opacity: 1; }
+}
+
 .philosophy_quote {
     max-width: 330px;
     font-size: 16px;
     line-height: 22px;
     letter-spacing: -.02em;
     color: #000;
-    margin:24px auto auto
+    margin:24px auto auto;
+
+    animation: 2s ease 0s normal forwards 1 fadeInUp;
 }
 
 .philosophy_author, .philosophy_quote {
@@ -2653,6 +2677,13 @@ option {
     }
 }
 
+@keyframes tva_1 { 0% { transform: scale(1); opacity: 0; } 100% { transform: scale(1.8); opacity: 1; } }
+@keyframes tva_2 { 0% { transform: scale(1); opacity: 0; } 100% { transform: scale(1.7); opacity: 1; } }
+@keyframes tva_3 { 0% { transform: scale(1); opacity: 0; } 100% { transform: scale(1.6); opacity: 1; } }
+@keyframes tva_4 { 0% { transform: scale(1); opacity: 0; } 100% { transform: scale(1.5); opacity: 1; } }
+@keyframes tvae_1 { 0% { transform: scale(1); opacity: 0; } 100% { transform: scale(1.6); opacity: 1; } }
+@keyframes tvae_2 { 0% { transform: scale(1); opacity: 0; } 100% { transform: scale(1.5); opacity: 1; } }
+
 .testimonialVariantA_animation_1 {
     position: absolute;
     top: 30%;
@@ -2665,7 +2696,9 @@ option {
     filter: blur(2px);
     border-radius: 50%;
     box-shadow: -7px -7px 0 #fff;
-    z-index:-1
+    z-index:-1;
+
+    animation: 5s ease-out 0s 1 tva_1 forwards;
 }
 
 .testimonialVariantA_animation_1:after {
@@ -2691,7 +2724,9 @@ option {
     filter: blur(2px);
     border-radius: 50%;
     box-shadow: -7px -7px 0 #fff;
-    z-index:-1
+    z-index:-1;
+
+    animation: 5s ease-out 0s 1 tva_2 forwards;
 }
 
 .testimonialVariantA_animation_2:after {
@@ -2717,7 +2752,9 @@ option {
     filter: blur(2px);
     border-radius: 50%;
     box-shadow: -7px -7px 0 #fff;
-    z-index:-1
+    z-index:-1;
+
+    animation: 5s ease-out 0s 1 tva_3 forwards;
 }
 
 .testimonialVariantA_animation_3:after {
@@ -2743,7 +2780,9 @@ option {
     filter: blur(2px);
     border-radius: 50%;
     box-shadow: -7px -7px 0 #fff;
-    z-index:-1
+    z-index:-1;
+
+    animation: 5s ease-out 0s 1 tva_4 forwards;
 }
 
 .testimonialVariantA_animation_4:after {
@@ -2761,7 +2800,9 @@ option {
     left: -75px;
     width: 550px;
     height: 550px;
-    display:flex
+    display:flex;
+
+    animation: 10s ease-out 0s 1 tvae_1 forwards;
 }
 
 .testimonialVariantA_animation_expander1, .testimonialVariantA_animation_expander2 {
@@ -2782,7 +2823,9 @@ option {
     top: -190px;
     left: -120px;
     width: 640px;
-    height:640px
+    height:640px;
+
+    animation: 10s ease-out 0s 1 tvae_2 forwards;
 }
 
 @media (min-width: 768px) {
@@ -3024,13 +3067,24 @@ option {
 .svg_circle_bg_contact {
     left: -119px;
     top: -137px;
-    z-index:-1
+    z-index:-1;
 }
+
+@keyframes innerCircle_1 { from { r: 11%; } to { r: 19%; } }
+@keyframes innerCircle_2 { from { r: 17%; } to { r: 28.5%; } }
+@keyframes innerCircle_3 { from { r: 33%; } to { r: 63.33%; } }
+@keyframes innerCircle_4 { from { r: 51%; } to { r: 78.77%; } }
+@keyframes innerCircle_5 { from { r: 74%; } to { r: 98%; } }
+.innerCircle_1 { animation: innerCircle_1 10s ease-in-out 0.5s 1 forwards; }
+.innerCircle_2 { animation: innerCircle_2 7s ease-in-out 0.5s 1 forwards; }
+.innerCircle_3 { animation: innerCircle_3 10s ease-in-out 0.5s 1 forwards; }
+.innerCircle_4 { animation: innerCircle_4 12s ease-in-out 0.5s 1 forwards; }
+.innerCircle_5 { animation: innerCircle_5 15s ease-in-out 0.5s 1 forwards; }
 
 .svg_circle_bg_contact_2 {
     left: -129px;
     top: -148px;
-    z-index:-1
+    z-index:-1;
 }
 
 .contact_title {
@@ -3061,6 +3115,21 @@ option {
     font-size: 10px;
     color:#000
 }
+
+.contact_title { animation: 0.8s linear 0s normal both 1 fadeInLeft; }
+
+.contact_addressWrapper div:first-child { animation: 1s linear 0s normal both 1 fadeInUp; }
+.contact_addressWrapper div:nth-child(2) { animation: 1s linear 0.5s normal both 1 fadeInUp; }
+
+.sb-form-control { animation: 0.5s ease 0s normal forwards 1 fadeIn; }
+
+div.sb-form-control:nth-of-type(1) label { animation: 0.3s linear 0s normal both 1 fadeInLeft; }
+div.sb-form-control:nth-of-type(2) label { animation: 0.3s linear 0.35s normal both 1 fadeInLeft; }
+div.sb-form-control:nth-of-type(3) label { animation: 0.3s linear 0.5s normal both 1 fadeInLeft; }
+
+div.sb-form-control:nth-of-type(1) > .underline_form { animation: 0.5s linear 0s normal both 1 inputSlideInRight; }
+div.sb-form-control:nth-of-type(2) > .underline_form { animation: 0.5s linear 0.35s normal both 1 inputSlideInRight; }
+div.sb-form-control:nth-of-type(3) > .underline_form { animation: 0.5s linear 0.5s normal both 1 inputSlideInRight; }
 
 @media (min-width: 1024px) {
     .contact_addressWrapper {

@@ -22,8 +22,6 @@
     {{ $options := (dict "enableSourceMap" true ) }}
     {{ $mainCss := resources.Get "main.css" }}
     {{ $mainStyle := $mainCss }}
-    {{ $mainJs := resources.Get "main.js" }}
     <link rel="preload" href="{{ $mainStyle.RelPermalink }}" integrity="{{ $mainStyle.Data.Integrity }}" as="style"/>
     <link rel="stylesheet" href="{{ $mainStyle.RelPermalink }}" integrity="{{ $mainStyle.Data.Integrity }}"/>
-    <script src="{{$mainJs.RelPermalink}}"></script>
   </head>
