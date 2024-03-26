@@ -2271,6 +2271,38 @@ option {
     min-height:500px
 }
 
+@keyframes fadeInText {
+  0% { opacity: 0; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.word-wrapper:nth-child(1) span:nth-of-type(1)  { animation: 0.1s ease 0s normal forwards 1 fadeInText; }
+.word-wrapper:nth-child(1) span:nth-of-type(2)  { animation: 0.2s ease 0s normal forwards 1 fadeInText; }
+.word-wrapper:nth-child(1) span:nth-of-type(3)  { animation: 0.3s ease 0s normal forwards 1 fadeInText; }
+.word-wrapper:nth-child(1) span:nth-of-type(4)  { animation: 0.4s ease 0s normal forwards 1 fadeInText; }
+.word-wrapper:nth-child(1) span:nth-of-type(5)  { animation: 0.5s ease 0s normal forwards 1 fadeInText; }
+.word-wrapper:nth-child(1) span:nth-of-type(6)  { animation: 0.6s ease 0s normal forwards 1 fadeInText; }
+.word-wrapper:nth-child(1) span:nth-of-type(7)  { animation: 0.7s ease 0s normal forwards 1 fadeInText; }
+.word-wrapper:nth-child(1) span:nth-of-type(8)  { animation: 0.8s ease 0s normal forwards 1 fadeInText; }
+
+.word-wrapper:nth-child(2) span:nth-of-type(1)  { animation: 0.9s ease 0s normal forwards 1 fadeInText; }
+.word-wrapper:nth-child(2) span:nth-of-type(2)  { animation: 1.0s ease 0s normal forwards 1 fadeInText; }
+.word-wrapper:nth-child(2) span:nth-of-type(3)  { animation: 1.1s ease 0s normal forwards 1 fadeInText; }
+.word-wrapper:nth-child(2) span:nth-of-type(4)  { animation: 1.2s ease 0s normal forwards 1 fadeInText; }
+.word-wrapper:nth-child(2) span:nth-of-type(5)  { animation: 1.3s ease 0s normal forwards 1 fadeInText; }
+.word-wrapper:nth-child(2) span:nth-of-type(6)  { animation: 1.4s ease 0s normal forwards 1 fadeInText; }
+
+.word-wrapper:nth-child(3) span:nth-of-type(1)  { animation: 1.5s ease 0s normal forwards 1 fadeInText; }
+.word-wrapper:nth-child(3) span:nth-of-type(2)  { animation: 1.6s ease 0s normal forwards 1 fadeInText; }
+.word-wrapper:nth-child(3) span:nth-of-type(3)  { animation: 1.7s ease 0s normal forwards 1 fadeInText; }
+.word-wrapper:nth-child(3) span:nth-of-type(4)  { animation: 1.8s ease 0s normal forwards 1 fadeInText; }
+.word-wrapper:nth-child(3) span:nth-of-type(5)  { animation: 1.9s ease 0s normal forwards 1 fadeInText; }
+.word-wrapper:nth-child(3) span:nth-of-type(6)  { animation: 2.0s ease 0s normal forwards 1 fadeInText; }
+.word-wrapper:nth-child(3) span:nth-of-type(7)  { animation: 2.1s ease 0s normal forwards 1 fadeInText; }
+.word-wrapper:nth-child(3) span:nth-of-type(8)  { animation: 2.2s ease 0s normal forwards 1 fadeInText; }
+.word-wrapper:nth-child(3) span:nth-of-type(9)  { animation: 2.3s ease 0s normal forwards 1 fadeInText; }
+
 @media (min-width: 600px) {
     .hero_wrapper {
         height: 82vh;
@@ -3075,11 +3107,11 @@ option {
 @keyframes innerCircle_3 { from { r: 33%; } to { r: 63.33%; } }
 @keyframes innerCircle_4 { from { r: 51%; } to { r: 78.77%; } }
 @keyframes innerCircle_5 { from { r: 74%; } to { r: 98%; } }
-.innerCircle_1 { animation: innerCircle_1 10s ease-in-out 0.5s 1 forwards; }
-.innerCircle_2 { animation: innerCircle_2 7s ease-in-out 0.5s 1 forwards; }
-.innerCircle_3 { animation: innerCircle_3 10s ease-in-out 0.5s 1 forwards; }
-.innerCircle_4 { animation: innerCircle_4 12s ease-in-out 0.5s 1 forwards; }
-.innerCircle_5 { animation: innerCircle_5 15s ease-in-out 0.5s 1 forwards; }
+.innerCircle_1 { animation: innerCircle_1 10s linear 0.5s 1 forwards; }
+.innerCircle_2 { animation: innerCircle_2 7s linear 0.5s 1 forwards; }
+.innerCircle_3 { animation: innerCircle_3 10s linear 0.5s 1 forwards; }
+.innerCircle_4 { animation: innerCircle_4 12s linear 0.5s 1 forwards; }
+.innerCircle_5 { animation: innerCircle_5 15s linear 0.5s 1 forwards; }
 
 .svg_circle_bg_contact_2 {
     left: -129px;
