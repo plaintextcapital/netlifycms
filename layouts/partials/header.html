@@ -27,7 +27,7 @@
             <ul class="hidden lg:flex lg:items-center ml-auto space-x-8">
               {{ range site.Menus.secondary }}
               <li>
-                <button type="button" aria-label="{{ .Name }}" class="sb-component sb-component-block sb-component-button navbar_links sb-component-button-primary">
+                <button type="button" aria-label="{{ .Name }}" class="button-newsletter sb-component sb-component-block sb-component-button navbar_links sb-component-button-primary">
                   <span>{{ .Name }}</span>
                 </button>
               </li>
@@ -68,7 +68,7 @@
                   <ul class="mb-10 space-y-5">
                     {{ range site.Menus.main }}
                     <li>
-                      <button type="button" aria-label="Newsletter" class="sb-component sb-component-block sb-component-button w-full navbar_links sb-component-button-primary">
+                      <button type="button" aria-label="Newsletter" class="button-newsletter sb-component sb-component-block sb-component-button w-full navbar_links sb-component-button-primary">
                         <span>{{ .Name }}</span>
                       </button>
                     </li>
