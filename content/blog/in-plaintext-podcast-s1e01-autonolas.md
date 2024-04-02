@@ -1,5 +1,5 @@
 ---
-title: In Plaintext Podcast - S1E01 - Autonolas
+title: In Plaintext Podcast - AI agents with David Minarsch, Autonolas
 date: 2023-12-05
 categories: Podcast
 author: Phil Bonello
