@@ -1,6 +1,6 @@
 ---
 title: Bittensor and decentralized commodity markets (Ala Shaabana)
-date: 2024-04-02T16:18:06.251Z
+date: 2023-12-13T17:18:06.251Z
 categories: Podcast
 author: Phil Bonello
 image: null
