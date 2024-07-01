@@ -1,5 +1,5 @@
 ---
-title: Plaintext Quarterly Letter - Choppy Waters, Clear Skies
+title: Plaintext Quarterly - Choppy Waters, Clear Skies
 date: 2024-07-01T19:06:58.174Z
 categories: Market Commentary
 author: Phil Bonello
@@ -12,17 +12,13 @@ Amid the choppy market, people have lamented the lack of breakout use cases. I d
 
 ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXdS3OoRhe2M6I0T8oWIOvXW1XAyq3gyClpqMYL_xunv47jkr0L560g-24fDrLKRnkuwYa0qajTHtxl1rYCb8goVRhfIDyTLs3pyTXJUbkozLmw3DWOA41lU6gM0bcYXrrI-Zq1KoWkROQfe4gr-8okTdD2w?key=ZGkTN2OMO3khfvc1xkGLpQ)
 
-
-
 In parallel with these liquidity cycles, tech innovations have also led to a surge in new crypto opportunities. In 2016-2017, Ethereum and ICOs promised new forms of capital formation. Investors’ imaginations ran wild with all the ways Ethereum could be used to disrupt incumbent businesses. In 2020-2021, decentralized finance found product market fit by facilitating trillions in peer-to-peer exchange and lending. Liquidity and tech breakthroughs have coincided in crypto over the last two cycles, so people expect the trend to continue.
 
 The reality is we’re in an upward liquidity cycle, which is pulling crypto prices higher and will likely continue to do so, but maybe the tech innovation won’t perfectly overlap with this liquidity growth. These cycles don’t need to match, and expecting them to do so is unrealistic. Tech doesn’t move at the pace of M2 growth or with fluctuations in interest rates. What is important to remember is that crypto’s superpower is global capital coordination, and we’ll continue to see new use cases. Breakout adoption might happen in RWA protocols, lending, stablecoins, gaming, DePIN, music, or something entirely unexpected, but it’s a matter of when not if. 
 
 Staying attuned to the market is crucial to 1) leverage the clear liquidity trade while 2) recognizing when new tech paradigms emerge. As an example, last year, if you had recognized the role crypto could play in AI, there were multiple ways to take advantage. It’s much easier to allocate to trends as they emerge than it is to predict them. 
 
-
-
-#### B﻿uy Boredom 
+#### B﻿uy Boredom
 
 Sentiment is easily predictable in crypto. When prices go up, everyone is interested and relatively happy. When prices are sideways and down, people are miserable, and investors divert their attention to just about anything else. Bitcoin has been sideways for four months now. Altcoins are down over 50% in many cases. New allocators have slowed their investments in crypto funds. Crypto Twitter is a wasteland. Mt. Gox distributions are beginning shortly, the US government has been selling Bitcoin seized from Silk Road, and the German government has been selling their own supply of seized Bitcoin. There are a lot of “easy” reasons to be bearish. The prevailing sentiment is that crypto is poised for a rocky few months, but the long-term trend is higher. 
 
@@ -32,24 +28,16 @@ This sentiment is visible in the options skew and the term structure below. The 
 
 This can also be seen clearly in the volatility term structure. 6-month volatility is far more expensive than 1-month volatility. Notice the last three times the reading was this low - September 20, 2021, January 2, 2023, and September 25, 2023. In the month following each event, Bitcoin went up 40%, 40% and 28%, respectively. Currently, the market has fallen asleep and is ignoring the potential for an enormous move in the next few months. 
 
-
-
 ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXdprnxPJPP4SPCCMWAj6dXD_c1YiCZJ_4P1jw5WTYxN1vIg7RmOk7LXk80VCNsLjoCQ9yE-ZFsNlC0mQb2NYysq1EHrJvJ20VmdJCERb7GHH9F12DvnJx9g7d5QPiFErdi9Xbscd0T8RTBlxkNRdsO5-WED?key=ZGkTN2OMO3khfvc1xkGLpQ)
-
-
 
 Sentiment around altcoins has rarely been poorer, and with good reason. Over the last three months, only 6% of alts have outperformed Bitcoin. This recent trend has led many to believe altcoin outperformance is a relic of the past. I strongly disagree. For one, crypto is wildly reflexive because it’s so inherently financial. The fundamentals of altcoins lag price. DeFi is the best example of this. As prices rise, trading volume and collateral amounts increase, bringing more revenue to DeFi protocols. It’s only a matter of time before we see huge outperformance in alts. If everyone is already positioned defensively on alts, then there aren’t many marginal sellers to keep pushing down prices. 
 
 ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXccAnO8-Ed3J8dhU-I5l-1x9OLbPJ4a1iis2iyMM4WpmHRg8Ej7VCMv9hsSljCO1yIIRA8WqK00cEbCUDKa0MO2kz5dXtNwZZtcIURMRL-Qu6oR6QlWuj5y-8ctOVQl3zfgQIoqfBPdGK5Vxbmpl7WiT58A?key=ZGkTN2OMO3khfvc1xkGLpQ)
 
-
-
 But not all altcoins will outperform. There will continue to be high dispersion in the crypto markets because so many assets are emerging daily, cannibalizing weak performers. We’re focused on two distinct approaches:
 
 1. Find asymmetric liquid opportunities at the very early stages. Last year, we used this approach to identify projects in the AI space, such as Bittensor and Nosana, and consumer projects like Sanko Game Corp. 
-2. Identify assets that have found product-market fit and demonstrate sustainable growth. Solana and Maker might fall into this bucket; they’re well-known but are market leaders in their respective categories with positive trending metrics. In general, the DeFi market offers some attractive opportunities, given how cheaply priced projects are now relative to their revenues. The chart below shows Maker’s price-to-sales ratio of 7.3 despite a major price jump over the last year
-
-
+2. Identify assets that have found product-market fit and demonstrate sustainable growth. Solana and Maker might fall into this bucket; they’re well-known but are market leaders in their respective categories with positive trending metrics. In general, the DeFi market offers some attractive opportunities, given how cheaply priced projects are now relative to their revenues. The chart below shows Maker’s price-to-sales ratio of 7.3 despite a major price jump over the last year.
 
 ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXdLz6pjDFDl0RB4zStOg7-b9B58v3kJO5g_zygxyUhZjUfgaIWZObikRxji1Zt9VcQtp3YGgQtmBCjTlwuuJlG7Y42YGYfeQjkgTqoneQy-eynAOQS1vXNijsnM36SHESZa5q-8x_ukZkTVMF4JxVzvMPgD?key=ZGkTN2OMO3khfvc1xkGLpQ)
 
