@@ -28,9 +28,9 @@ sections:
       x: https://twitter.com/plainfran
       in: https://www.linkedin.com/in/folivavelez/
 
-      - role: Research Lead
+    - role: Research Lead
       name: Tommy Eastman
-      imageUrl: /images/Pic-%20Headshot%20final%20Fran.jpg
+      imageUrl: /images/Tommy-1080x1080.jpg
       x: https://x.com/tommyeastman21
       in: https://www.linkedin.com/in/tommy-eastman-302291210/
 ---
