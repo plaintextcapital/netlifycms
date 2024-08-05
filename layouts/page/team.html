@@ -3,7 +3,7 @@
 <main id="main" class="sb-layout sb-page-layout">
   <h1 class="sr-only" data-sb-field-path="title">{{ .Title }}</h1>
   <div data-sb-field-path="sections">
-    <div data-sb-field-path="sections.0" class="sb-component sb-component-section sb-component-featured-people-section colors-a flex flex-col justify-center min-h-0 mt-0 mb-0 ml-0 mr-0 pt-12 px-4 border-none">
+    <div data-sb-field-path="sections.0" class="sb-component sb-component-section sb-component-featured-people-section colors-a flex flex-col justify-center min-h-0 mt-0 mb-0 ml-0 mr-0 pt-12 px-4 pb-20 border-none">
       <div class="flex w-full justify-center">
         <div class="w-full max-w-screen-xl">
           <div class="team-container grid grid-cols-1 md:grid-cols-2 gap-8" data-sb-field-path=".people">
@@ -48,7 +48,13 @@
     grid-template-columns: repeat(2, 1fr); /* Two columns on medium screens and up */
   }
 }
+
+/* hopefully this works prob not */
+.sb-component-featured-people-section {
+  padding-bottom: 80px; 
+}
 </style>
+
 
   </div>
 </main>
