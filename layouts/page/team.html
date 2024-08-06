@@ -9,13 +9,13 @@
 
           {{ range .Params.sections }}
             {{ range .profile }}
-              <div class="relative team_wrapper flex flex-col items-center text-center" data-sb-field-path=".0">
-                <div class="team_img overflow-hidden mb-4" data-sb-field-path=".image">
+              <div class="relative team_wrapper" data-sb-field-path=".0">
+                <h3 data-sb-field-path=".firstName" style="writing-mode: vertical-rl;" class="rotate-180 absolute left-3 bottom-7 md:bottom-6 team_name">{{ .name }}</h3>
+                <div class="team_img overflow-hidden mx-auto" data-sb-field-path=".image">
                   <img class="sb-component sb-component-block sb-component-image-block h-full object-cover w-full" src="{{ .imageUrl }}" alt="{{ .name }} - {{ .role }}" draggable="false" data-sb-field-path=".url#@src .altText#@alt .elementId#@id">
                 </div>
-                <h3 data-sb-field-path=".firstName" class="team_name mb-2">{{ .name }}</h3>
-                <p data-sb-field-path=".role" class="">{{ .role }}</p>
-                <div class="social-icons flex gap-4 mt-4">
+                <p data-sb-field-path=".role" class="absolute top-0 right-0">{{ .role }}</p>
+                <div class="social-icons flex gap-4 mt-auto bottom-0 absolute right-0">
                   <a href="{{ .x }}" target="_blank" rel="noopener noreferrer">
                     <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <g clip-path="url(#clip0_202_279)">
@@ -69,22 +69,11 @@
   align-items: center;
 }
 
-.team_wrapper {
-  position: relative;
-  flex-direction: column;
-  align-items: center;
-}
-
-.team_name {
-  margin-top: 1rem; /* Add space between image and name */
-}
-
 .team_img {
-  position: relative;
   width: 100%;
   height: 0;
   padding-bottom: 100%; /* Maintain aspect ratio */
-  overflow: hidden;
+  position: relative;
 }
 
 .team_img img {
@@ -94,9 +83,5 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-
-.social-icons {
-  margin-top: 1rem; /* Add space between role and social icons */
 }
 </style>
