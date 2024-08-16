@@ -27,6 +27,21 @@ collections:
       - { label: "Author", name: "author", widget: "select", options: ["Phil Bonello", "Andrés García", "Fran Oliva-Velez"], required: true }
       - { label: ".", name: "body", widget: "markdown" }
       - { label: "Featured Image", name: "image", widget: "image", required: false }
+  - name: "authors"
+    label: "Authors"
+    label_singular: "Author"
+    folder: "content/authors"
+    create: true
+    nested:
+      depth: 2 # max depth to show in the collection tree
+      summary: '{{role}}'
+    sort: 'name'
+    fields:
+      - { label: "Name", name: "name", widget: "string", required: true }
+      - { label: "Role", name: "role", widget: "string", required: true }
+      - { label: "Image", name: "image", widget: "image", required: true }
+      - { label: "X (URL)", name: "x", widget: "string", required: false }
+      - { label: "LinkedIn (URL)", name: "in", widget: "string", required: false, comment: "complete url" }
   - name: "pages"
     label: "Pages"
     files:
