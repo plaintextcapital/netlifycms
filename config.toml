@@ -38,3 +38,8 @@ languageCode = 'en-US'
   name = 'Newsletter'
   pageRef = '!#'
   weight = 60
+
+[pagination]
+  disableAliases = false
+  pagerSize = 10
+  path = 'page'
