@@ -52,37 +52,6 @@ collections:
         fields:
           - { label: Title, name: title, widget: string }
           - { label: ".", name: "body", widget: "markdown" }
-      - file: "content/team/index.md"
-        label: "Team"
-        name: "team"
-        fields:
-          - { label: Title, name: title, widget: string }
-          - {
-              label: "Sections",
-              name: "sections",
-              widget: object,
-              fields: [
-                {
-                  label: type,
-                  name: type,
-                  widget: 'list',
-                  allow_add: false,
-                  collapsed: false,
-                  field: {
-                    label: 'Profile',
-                    name: 'profile',
-                    widget: 'list',
-                    fields: [
-                      { label: 'Role', name: 'role', widget: 'text' },
-                      { label: 'Name', name: 'name', widget: 'text' },
-                      { label: 'image', name: 'imageUrl', widget: 'image' },
-                      { label: 'X', name: 'x', widget: 'text' },
-                      { label: 'LinkedIn', name: 'in', widget: 'text' },
-                    ]
-                  }
-                },
-              ],
-            }
       - file: "content/disclaimer/index.md"
         label: "Disclaimer"
         name: "disclaimer"

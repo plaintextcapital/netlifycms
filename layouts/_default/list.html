@@ -34,18 +34,18 @@
                   <div class="mb-[30px]">
                     <div class="mb-[30px]">
                       <div class="blog_wrapper grid gap-x-6 lg:gap-x-8">
-                          {{ range .Pages }}
-                            <a class="blog-container block h-full md:flex md:flex-row-reverse md:justify-between" data-sb-object-id="content/pages/blog/in-plaintext-podcast-autonolas.md" href="{{ .RelPermalink }}">
+                          {{ range .Paginator.Pages }}
+                            <div class="blog-container block h-full md:flex md:flex-row-reverse md:justify-between" data-sb-object-id="{{ .RelPermalink }}">
                               {{ if .Params.featuredImage }}
-                              <div class="w-full relative overflow-hidden h-44 md:h-full md:w-60 md:flex-shrink-0 md:ml-4">
+                              <a class="w-full relative overflow-hidden h-44 md:h-full md:w-60 md:flex-shrink-0 md:ml-4" href="{{ .RelPermalink }}">
                                 <img class="sb-component sb-component-block sb-component-image-block absolute left-0 top-0 h-full w-full object-cover" src="{{ .Params.featuredImage }}" alt="In Plaintext Poster" draggable="false" data-sb-field-path="featuredImage featuredImage.url#@src featuredImage.altText#@alt featuredImage.elementId#@id">
-                              </div>
+                              </a>
                               {{ end }}
                               <div class="flex flex-col md:flex-1">
                                 {{ if .Params.categories }}
-                                <p class="blog_category" href="{{ .RelPermalink }}">{{ .Params.categories }}</p>
+                                <a class="blog_category inline" href="{{ .Params.categories | urlize }}">{{ .Params.categories }}</a>
                                 {{ end }}
-                                <h3 class="blog_title" data-sb-field-path="title">{{ .Title }}</h3>
+                                <h3 class="blog_title" data-sb-field-path="title"><a class="block" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
                                 <div class="blog_date flex items-center">
                                   <div class="blog_date_wrapper">
                                     <time datetime="2023-12-05 00:00:00" data-sb-field-path="date">{{ .Date.Format .Site.Params.dateFormat }}</time>
@@ -54,9 +54,17 @@
                                   </p>
                                 </div>
                               </div>
-                            </a>
+                            </div>
                             <div class="blog_border"></div>
                           {{ end }}
+                          {{ template "_internal/pagination.html" . }}
+                          <style type="text/css">
+                            ul.pagination { display:flex; margin: 20px 0; font-family: monospace; }
+                            ul.pagination li a { padding: 10px; }
+                            ul.pagination li.active a,
+                            ul.pagination li:not(.disabled) a:hover { background: rgba(0, 0, 0, 0.05); }
+                            ul.pagination li.disabled { color: rgba(0, 0, 0, 0.3); }
+                          </style>
                       </div>
                     </div>
                   </div>
