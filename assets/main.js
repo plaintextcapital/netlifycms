@@ -11,7 +11,7 @@ $(window).on("load", function() {
 });
 
 $(".ReactModal__Overlay--after-open").on("click", function(){
-  document.cookie = "visited=true path=/";
+  document.cookie = "visited=true; path=/";
   splash.fadeOut(200);
 });
 
