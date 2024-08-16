@@ -3,9 +3,11 @@ languageCode = 'en-US'
 
 [taxonomies]
   category = 'categories'
+  author = 'authors'
 
 [permalinks]
   categories = '/:section/:slug'
+  authors = '/:section/:slug'
 
 [params]
   dateFormat = 'Jan 2, 2006'
