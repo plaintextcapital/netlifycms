@@ -11,6 +11,7 @@ $(window).on("load", function() {
 });
 
 $(".ReactModal__Overlay--after-open").on("click", function(){
+  document.cookie = "visited=true path=/";
   splash.fadeOut(200);
 });
 
@@ -25,3 +26,9 @@ $(".open-menu ").on("click", function(){
 $(".close-menu ").on("click", function(){
   menu.slideUp(200);
 });
+
+// Fixes Netlify Identity email confirmation
+// Ref https://answers.netlify.com/t/common-issue-netlify-cms-git-gateway-email-not-confirmed/10690/26
+if (window.location.hash.includes('_token=')) {
+  window.location.assign('/admin/' + window.location.hash);
+}
