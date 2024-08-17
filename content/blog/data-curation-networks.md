@@ -1,6 +1,6 @@
 ---
 title: Data Curation Networks
-date: 2024-08-17T18:29:15.177Z
+date: 2024-08-19T18:29:15.177Z
 categories: Insights
 authors: Tommy Eastman
 ---
