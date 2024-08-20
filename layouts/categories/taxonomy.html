@@ -38,7 +38,7 @@
                                 {{ if .Params.categories }}
                                 <a class="blog_category inline" href="/categories/{{ .Params.categories | urlize }}">{{ .Params.categories }}</a>
                                 {{ end }}
-                                <h3 class="blog_title" data-sb-field-path="title"><a class="block" href="{{ .Permalink }}">Category: {{ .Title }}</a></h3>
+                                <h3 class="blog_title" data-sb-field-path="title"><a class="block" href="{{ .RelPermalink }}">Category: {{ .Title }}</a></h3>
 
                                 {{ $postbycategory := site.GetPage .Title }}
                                 {{ range $postbycategory.Pages }}
