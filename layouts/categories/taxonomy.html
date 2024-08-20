@@ -42,7 +42,7 @@
 
                                 {{ $postbycategory := .Site.GetPage .Title }}
                                 {{ range $postbycategory.Pages }}
-                                  <div><a href="{{ .Permalink }}" alt="{{ .Title }}">{{ .Title }}</a></div>
+                                  <div><a href="{{ .RelPermalink }}" alt="{{ .Title }}">{{ .Params.Title }}</a></div>
                                   <div class="blog_border"></div>
                                 {{ end }}
                               </div>
