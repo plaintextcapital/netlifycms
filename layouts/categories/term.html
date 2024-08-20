@@ -48,7 +48,7 @@
                                   </p>
                                 </div>
 
-                                {{ $postbycategory := site.GetPage .Title }}
+                                {{ $postbycategory := .Site.GetPage .Title }}
                                 {{ range $postbycategory.Pages }}
                                   <a href="{{ .Permalink }}" alt="{{ .Title }}">{{ .Title }}</a>
                                 {{ end }}
