@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+{{ partial "head.html" . }}
+<body>
+  <div class="sb-page page-{{ .Slug }}" style="overflow: hidden;">
+      <div class="sb-base sb-default-base-layout">
+        {{ partial "header.html" . }}
+        <main id="main" class="layout page-layout">
+          <div data-sb-field-path="postFeed" class="sb-component sb-component-section sb-component-post-feed-section colors-a flex flex-col justify-center relative min-h-0 pt-0 pl-4 pr-4 pb-12 border-none">
+            <div class="flex w-full justify-center">
+              <svg class="blog_bg left" width="256" height="720" viewBox="0 0 256 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 -441C1.22578 55.4189 1 550.327 1 1046.9" stroke="white" stroke-width="0.75" stroke-miterlimit="10"></path>
+                <path d="M53.5496 -441C51.955 -291.274 32.129 -137.58 43.2203 11.8776C50.8967 115.465 85.3418 213.08 86.1461 317.584C87.0492 435.036 56.2307 549.212 53.5073 666.494C50.558 793.136 53.5496 920.231 53.5496 1046.9" stroke="white" stroke-width="0.75" stroke-miterlimit="10"></path>
+                <path d="M106.099 -441C101.824 -284.483 64.0341 -111.377 88.3334 44.0253C104.138 145.057 166.622 227.848 168.668 332.084C170.925 446.881 113.818 552.699 107.031 666.946C99.5517 792.826 106.099 920.88 106.099 1046.9" stroke="white" stroke-width="0.75" stroke-miterlimit="10"></path>
+                <path d="M158.649 -441C151.452 -280.403 92.4961 -77.0687 132.797 80.3944C158.254 179.845 251.373 241.684 255.041 348.574C258.851 459.927 174.453 557.697 160.836 667.524C145.554 790.835 158.649 923.026 158.649 1046.9" stroke="white" stroke-width="0.75" stroke-miterlimit="10"></path>
+              </svg>
+              <svg class="blog_bg right" width="333" height="720" viewBox="0 0 333 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M68.8783 -441C53.9206 -313.92 -25.5952 -154.17 10.4162 -27.1035C40.1059 77.6555 159.979 126.802 166.386 241.726C174.02 378.491 40.5715 492.922 27.7023 628.515C14.7201 765.379 58.676 910.376 68.8783 1046.9" stroke="white" stroke-width="0.75" stroke-miterlimit="10"></path>
+                <path d="M121.428 -441C110.435 -307.679 51.4371 -157.911 77.5426 -24.4351C98.6104 83.2322 191.207 160.375 193.888 273.634C196.936 402.436 100.148 511.177 90.6659 639.062C80.6893 773.469 114.274 912.691 121.428 1046.92" stroke="white" stroke-width="0.75" stroke-miterlimit="10"></path>
+                <path d="M173.978 -441C167.515 -303.331 128.385 -159.52 144.725 -21.7526C158.088 90.8985 220.925 190.674 221.25 305.697C221.588 424.729 159.415 531.14 153.658 649.65C147.251 781.46 169.885 915.162 173.963 1046.9" stroke="white" stroke-width="0.75" stroke-miterlimit="10"></path>
+                <path d="M226.527 -441C224.114 -300.888 203.117 -159.76 210.469 -19.6066C216.706 99.3979 251.927 214.407 251.419 334.075C250.953 443.987 218.992 549.226 215.577 658.926C211.555 788.011 225.031 917.83 226.527 1046.9" stroke="white" stroke-width="0.75" stroke-miterlimit="10"></path>
+                <path d="M279.077 -441C279.415 55.4613 279.317 550.482 279.077 1046.9" stroke="white" stroke-width="0.75" stroke-miterlimit="10"></path>
+                <path d="M331.626 -441C332.007 54.9671 331.88 550.934 331.626 1046.9" stroke="white" stroke-width="0.75" stroke-miterlimit="10"></path>
+              </svg>
+              <div class="w-full max-w-screen-xl">
+                <div>
+                  <div class="mb-[30px]">
+                    <div class="mb-[30px]">
+                      <div class="blog_wrapper grid gap-x-6 lg:gap-x-8">
+                          {{ range .Paginator.Pages }}
+                            <div class="blog-container block h-full md:flex md:flex-row-reverse md:justify-between" data-sb-object-id="{{ .RelPermalink }}">
+                              {{ if .Params.featuredImage }}
+                              <a class="w-full relative overflow-hidden h-44 md:h-full md:w-60 md:flex-shrink-0 md:ml-4" href="{{ .RelPermalink }}">
+                                <img class="sb-component sb-component-block sb-component-image-block absolute left-0 top-0 h-full w-full object-cover" src="{{ .Params.featuredImage }}" alt="In Plaintext Poster" draggable="false" data-sb-field-path="featuredImage featuredImage.url#@src featuredImage.altText#@alt featuredImage.elementId#@id">
+                              </a>
+                              {{ end }}
+                              <div class="flex flex-col md:flex-1">
+                                {{ if .Params.categories }}
+                                <a class="blog_category inline" href="/categories/{{ .Params.categories | urlize }}">{{ .Params.categories }}</a>
+                                {{ end }}
+                                <h3 class="blog_title" data-sb-field-path="title"><a class="block" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+
+                                <div class="blog_date flex items-center">
+                                  <div class="blog_date_wrapper">
+                                    <time datetime="2023-12-05 00:00:00" data-sb-field-path="date">{{ .Date.Format .Site.Params.dateFormat }}</time>
+                                  </div>
+                                  <p>By <b>{{ .Params.authors }}</b>
+                                  </p>
+                                </div>
+
+                                {{ $postbycategory := site.GetPage .Title }}
+                                {{ range $postbycategory.Pages }}
+                                  <a href="{{ .Permalink }}" alt="{{ .Title }}">{{ .Title }}</a>
+                                {{ end }}
+                              </div>
+                            </div>
+                            <div class="blog_border"></div>
+                          {{ end }}
+                          {{ template "_internal/pagination.html" . }}
+                          <style type="text/css">
+                            ul.pagination { display:flex; margin: 20px 0; font-family: monospace; }
+                            ul.pagination li a { padding: 10px; }
+                            ul.pagination li.active a,
+                            ul.pagination li:not(.disabled) a:hover { background: rgba(0, 0, 0, 0.05); }
+                            ul.pagination li.disabled { color: rgba(0, 0, 0, 0.3); }
+                          </style>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+        {{ partial "footer.html" . }}
+      </div>
+  </div>
+</body>
+</html>

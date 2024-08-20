@@ -1,6 +1,6 @@
 {{ partial "head.html" . }}
 {{ partial "header.html" . }}
-<main id="main" class="sb-layout sb-page-layout">
+<main id="main" class="blog_wrapper grid gap-x-6 lg:gap-x-8">
   <h1 class="sr-only" data-sb-field-path="title">{{ .Title }}</h1>
   <div data-sb-field-path="sections">
     <div data-sb-field-path="sections.0" class="sb-component sb-component-section sb-component-featured-people-section colors-a flex flex-col justify-center min-h-0 mt-0 mb-0 ml-0 mr-0 pt-12 px-4 pb-20 border-none">
@@ -36,6 +36,12 @@
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M3.8999 10.8999H6.2999V6.7999C6.2999 6.5999 6.2999 6.3999 6.3999 6.1999C6.5999 5.7999 6.9999 5.2999 7.6999 5.2999C8.5999 5.2999 8.9999 5.9999 8.9999 6.9999V10.8999H11.3999V6.6999C11.3999 4.3999 10.1999 3.3999 8.5999 3.3999C7.2999 3.3999 6.6999 4.0999 6.3999 4.5999V3.4999H3.8999C3.9999 4.1999 3.8999 10.8999 3.8999 10.8999Z" fill="#111111"></path>
                   </svg>
                 </a>
+              </div>
+              <div class="mb-8">
+                {{ $postbyauthor := site.GetPage .Params.name }}
+                {{ range $postbyauthor.Pages }}
+                  <a href="{{ .Permalink }}" alt="{{ .Title }}">{{ .Title }}</a><br>
+                {{ end }}
               </div>
             </div>
             {{ end }}
