@@ -1,6 +1,6 @@
 ---
 title: 'Head Fake'
-author: 'Phil Bonello'
+authors: 'Phil Bonello'
 date: '2021-12-01'
 categories: 'Market Commentary'
 ---

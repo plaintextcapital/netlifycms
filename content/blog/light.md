@@ -1,6 +1,6 @@
 ---
 title: 'Light at the end of the tunnel'
-author: 'Phil Bonello'
+authors: 'Phil Bonello'
 date: '2022-02-01'
 categories: 'Market Commentary'
 ---

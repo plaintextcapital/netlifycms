@@ -2,7 +2,7 @@
 title: Plaintext Quarterly - Choppy Waters, Clear Skies
 date: 2024-07-01T19:06:58.174Z
 categories: Market Commentary
-author: Phil Bonello
+authors: Phil Bonello
 ---
 The first half of 2024 was constructive for crypto markets. The launch of the wildly successful Bitcoin ETFs and the approval of the Ethereum ETFs led to a 70% price increase for both BTC and ETH. The political headwinds have taken a turn as Trump chose to counter the Biden administration’s hostile view towards crypto by making support for the industry a cornerstone of his campaign. SAB 121, a bill that restricts the ability for banks to custody crypto, was overturned by Congress but vetoed by Biden. FIT21, which proposes reasonable regulatory guardrails and limits the SEC’s power over crypto, made it through the House, signifying a shift in sentiment. And, of course, the Bitcoin Halving took place at the end of May. 
 

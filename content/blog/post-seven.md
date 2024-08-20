@@ -1,6 +1,6 @@
 ---
 title: 'What Next?'
-author: 'Phil Bonello'
+authors: 'Phil Bonello'
 date: '2022-06-02'
 categories: 'Market Commentary'
 ---

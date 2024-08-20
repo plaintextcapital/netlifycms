@@ -2,7 +2,7 @@
 title: Breaking Point
 date: 2022-10-01
 categories: Market Commentary
-author: Phil Bonello
+authors: Phil Bonello
 ---
 ### "It's all one trade."
 

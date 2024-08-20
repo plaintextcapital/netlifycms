@@ -1,6 +1,6 @@
 ---
 title: Onchain Summer
-author: Phil Bonello
+authors: Phil Bonello
 date: '2023-09-04'
 categories: 'Market Commentary'
 ---

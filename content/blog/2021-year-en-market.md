@@ -1,6 +1,6 @@
 ---
 title: '2021 Year End Market Commentary'
-author: 'Phil Bonello'
+authors: 'Phil Bonello'
 date: '2022-01-04'
 categories: 'Market Commentary'
 ---

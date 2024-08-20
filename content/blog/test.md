@@ -1,6 +1,6 @@
 ---
 title: 'A Permissionless Foundation for Music'
-author: 'Phil Bonello'
+authors: 'Phil Bonello'
 date: '2022-06-07'
 categories: Insights
 ---

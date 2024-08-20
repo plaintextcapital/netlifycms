@@ -2,7 +2,7 @@
 title: Summer Solstice
 date: 2024-04-08T20:29:30.487Z
 categories: Market Commentary
-author: Phil Bonello
+authors: Phil Bonello
 ---
 Cycles of the market, like seasons, require distinct approaches: conserving energy in winter, planting and hunting in spring, harvesting in summer, and preparing for winter again in the fall. Currently, we find ourselves in the late spring of the market—conditions have warmed, and the likelihood of heavy snow seems remote. It's time to maximize the impending summer's opportunities.
 

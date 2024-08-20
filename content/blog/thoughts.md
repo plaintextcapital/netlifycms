@@ -1,7 +1,7 @@
 ---
 title: 'Thoughts on the Executive Order'
 date: '2022-03-10'
-author: 'Fran Oliva-Velez'
+authors: 'Fran Oliva-Velez'
 categories: 'Market Commentary'
 ---
 Yesterday, the President signed an Executive Order (EO) titled "Ensuring Responsible Development of Digital Assets''. For those interested in the official fact sheet, it is a short and easy [read](https://www.whitehouse.gov/briefing-room/statements-releases/2022/03/09/fact-sheet-president-biden-to-sign-executive-order-on-ensuring-responsible-innovation-in-digital-assets/).

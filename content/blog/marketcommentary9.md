@@ -1,6 +1,6 @@
 ---
 title: 'Chart Dump'
-author: 'Phil Bonello'
+authors: 'Phil Bonello'
 date: '2022-07-01'
 categories: 'Market Commentary'
 ---

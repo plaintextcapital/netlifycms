@@ -1,6 +1,6 @@
 ---
 title: Musical Chairs
-author: Phil Bonello
+authors: Phil Bonello
 date: '2023-10-03'
 categories: 'Market Commentary'
 ---

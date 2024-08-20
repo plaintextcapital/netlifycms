@@ -1,6 +1,6 @@
 ---
 title: The Storm Before the Storm
-author: Phil Bonello
+authors: Phil Bonello
 date: '2023-11-01'
 categories: Market Commentary
 ---

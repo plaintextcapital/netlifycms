@@ -10,7 +10,7 @@
             {{ $authors := where .Site.Pages "Type" "authors" }}
             {{ $byKind := where .Site.Pages "Kind" "=" "term" }}
             {{ $authors := $authors | intersect $byKind }}
-            {{ range sort $authors ".Params.name" }}
+            {{ range sort $authors ".Params.weight" }}
                 <div class="relative team_wrapper" data-sb-field-path=".0">
                   <h3 data-sb-field-path=".firstName" style="writing-mode: vertical-rl;" class="rotate-180 absolute left-3 bottom-7 md:bottom-6 team_name">{{ .Params.name }}</h3>
                   <div class="absolute left-10 top-7 team_img overflow-hidden" data-sb-field-path=".image">

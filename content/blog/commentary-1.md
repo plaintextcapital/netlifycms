@@ -1,6 +1,6 @@
 ---
 title: 'Market Commentary #1'
-author: 'Phil Bonello'
+authors: 'Phil Bonello'
 date: '2021-10-15'
 categories: 'Market Commentary'
 ---

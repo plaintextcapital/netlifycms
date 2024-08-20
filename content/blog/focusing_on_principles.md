@@ -1,6 +1,6 @@
 ---
 title: Focusing on Principles
-author: 'Phil Bonello'
+authors: 'Phil Bonello'
 date: '2022-12-01'
 categories: Insights
 ---

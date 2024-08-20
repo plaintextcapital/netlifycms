@@ -1,6 +1,6 @@
 ---
 title: 'Our Investment in Sovereign'
-author: 'Phil Bonello'
+authors: 'Phil Bonello'
 date: '2023-01-31'
 categories: Insights
 ---

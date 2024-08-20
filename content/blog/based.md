@@ -1,6 +1,6 @@
 ---
 title: Based
-author: 'Phil Bonello'
+authors: 'Phil Bonello'
 date: '2023-03-01'
 categories: 'Market Commentary'
 ---

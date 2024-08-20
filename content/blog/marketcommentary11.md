@@ -1,6 +1,6 @@
 ---
 title: 'Cloudy Skies'
-author: 'Phil Bonello'
+authors: 'Phil Bonello'
 date: '2022-09-06'
 categories: 'Market Commentary'
 ---
