@@ -1,6 +1,6 @@
 ---
 title: 'Benefits of Web 3.0 Music'
-author: 'Phil Bonello'
+authors: 'Phil Bonello'
 date: '2022-10-06'
 categories: Insights
 ---

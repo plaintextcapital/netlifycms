@@ -1,6 +1,6 @@
 ---
 title: 'Tied at the Hip'
-author: 'Phil Bonello'
+authors: 'Phil Bonello'
 date: '2022-05-02'
 categories: 'Market Commentary'
 ---

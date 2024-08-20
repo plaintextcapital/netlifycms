@@ -1,6 +1,6 @@
 ---
 title: 'The Big Picture'
-author: 'Phil Bonello'
+authors: 'Phil Bonello'
 date: '2022-04-01'
 categories: 'Market Commentary'
 ---

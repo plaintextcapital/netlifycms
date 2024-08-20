@@ -1,6 +1,6 @@
 ---
 title: 'Inflation, Solana, and the Future of AI Music on Web 3'
-author: Phil Bonello
+authors: Phil Bonello
 date: '2023-05-01'
 categories: 'Market Commentary'
 ---

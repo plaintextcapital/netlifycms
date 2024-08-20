@@ -1,6 +1,6 @@
 ---
 title: 'Cautious Optimism'
-author: 'Phil Bonello'
+authors: 'Phil Bonello'
 date: '2022-08-01'
 categories: 'Market Commentary'
 ---

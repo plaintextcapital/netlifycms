@@ -1,6 +1,6 @@
 ---
 title: 'The Halving: Supply and Demand'
-author: Phil Bonello
+authors: Phil Bonello
 date: '2023-08-01'
 categories: 'Market Commentary'
 ---

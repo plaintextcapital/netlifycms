@@ -1,6 +1,6 @@
 ---
 title: 'Peak Panic'
-author: 'Phil Bonello'
+authors: 'Phil Bonello'
 date: '2022-03-03'
 categories: 'Market Commentary'
 ---

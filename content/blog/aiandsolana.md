@@ -1,6 +1,6 @@
 ---
 title: "AI and Solana"
-author: "Phil Bonello"
+authors: "Phil Bonello"
 date: '2023-12-01'
 categories: 'Market Commentary'
 ---

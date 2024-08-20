@@ -1,6 +1,6 @@
 ---
 title: 'Our Investment in Nina'
-author: 'Phil Bonello'
+authors: 'Phil Bonello'
 date: '2023-01-13'
 categories: Insights
 ---

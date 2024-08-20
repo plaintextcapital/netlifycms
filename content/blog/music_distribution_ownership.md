@@ -1,6 +1,6 @@
 ---
 title: 'Music Distribution and Ownership in Web 3.0'
-author: 'Phil Bonello'
+authors: 'Phil Bonello'
 date: '2022-12-06'
 categories: Insights
 ---

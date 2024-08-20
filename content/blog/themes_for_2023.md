@@ -1,6 +1,6 @@
 ---
 title: 'Themes for 2023'
-author: 'Phil Bonello'
+authors: 'Phil Bonello'
 date: '2023-02-01'
 categories: 'Market Commentary'
 ---

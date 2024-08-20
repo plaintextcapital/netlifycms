@@ -1,6 +1,6 @@
 ---
 title: 'Scalability & The Modular Blockchain Stack'
-author: 'Phil Bonello'
+authors: 'Phil Bonello'
 date: '2022-01-25'
 categories: Insights
 ---

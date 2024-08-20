@@ -1,6 +1,6 @@
 ---
 title: Bitcoin's Wealth Effect
-author: 'Phil Bonello'
+authors: 'Phil Bonello'
 date: '2021-11-04'
 categories: 'Market Commentary'
 ---

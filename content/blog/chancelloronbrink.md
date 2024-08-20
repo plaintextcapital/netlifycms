@@ -1,6 +1,6 @@
 ---
 title: 'Chancellor on Brink of Bailout'
-author: 'Phil Bonello'
+authors: 'Phil Bonello'
 date: '2023-04-03'
 categories: 'Market Commentary'
 ---

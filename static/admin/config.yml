@@ -42,7 +42,8 @@ collections:
       - { label: "Role", name: "role", widget: "string", required: true }
       - { label: "Image", name: "image", widget: "image", required: true }
       - { label: "X (URL)", name: "x", widget: "string", required: false }
-      - { label: "LinkedIn (URL)", name: "in", widget: "string", required: false, comment: "complete url" }
+      - { label: "LinkedIn (URL)", name: "in", widget: "string", required: false }
+      - { label: "Sort Weight", name: "weight", widget: "string", required: false }
   - name: "pages"
     label: "Pages"
     files:

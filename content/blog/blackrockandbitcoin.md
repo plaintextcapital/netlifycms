@@ -1,6 +1,6 @@
 ---
 title: Blackrock & Bitcoin
-author: Phil Bonello
+authors: Phil Bonello
 date: '2023-07-01'
 categories: 'Market Commentary'
 ---

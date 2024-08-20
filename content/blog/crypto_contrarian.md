@@ -1,6 +1,6 @@
 ---
 title: 'Crypto: contrarian once again'
-author: 'Phil Bonello'
+authors: 'Phil Bonello'
 date: '2023-06-01'
 categories: 'Market Commentary'
 ---

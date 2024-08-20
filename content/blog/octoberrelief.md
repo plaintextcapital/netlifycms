@@ -1,6 +1,6 @@
 ---
 title: 'October Relief'
-author: 'Phil Bonello'
+authors: 'Phil Bonello'
 date: '2022-11-02'
 categories: 'Market Commentary'
 ---

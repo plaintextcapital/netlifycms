@@ -1,6 +1,6 @@
 ---
 title: 'Inflation has Topped'
-author: 'Phil Bonello'
+authors: 'Phil Bonello'
 date: '2023-01-03'
 categories: 'Market Commentary'
 ---

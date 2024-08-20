@@ -1,7 +1,7 @@
 ---
 title: 'Decentralized Intelligence: Bittensor''s Vision for Universal AI'
 date: '2023-10-10'
-author: Phil Bonello
+authors: Phil Bonello
 categories: Insights
 ---
 As you wake up in the morning, a gentle voice floats in — your AI assistant, “Good morning. I trust you rested well. The results from your doctor's visit are in; would you like to review them? Also, you have an 11 am meeting with the board members to discuss quarterly projections. You’ll need to prepare talking points regarding the upcoming layoffs. Finally, this afternoon offers a window for you to revisit notes I took from last night's business dinner. Oh, and Elizabeth's soccer practice wraps up at 6 pm; she'll be waiting for you.”
