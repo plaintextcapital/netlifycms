@@ -40,8 +40,7 @@
                                 {{ end }}
                                 <h3 class="blog_title" data-sb-field-path="title"><a class="block" href="{{ .RelPermalink }}">Category: {{ .Title }}</a></h3>
 
-                                {{ $postbycategory := .Site.GetPage .Title }}
-                                {{ range sort $postbycategory.Pages ".Date" "desc" }}
+                                {{ range .Pages }}
                                   <div><a href="{{ .RelPermalink }}" alt="{{ .Title }}">{{ .Title }}</a></div>
                                   <div class="blog_border"></div>
                                 {{ end }}
