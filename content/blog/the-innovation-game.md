@@ -16,7 +16,7 @@ TIG represents a market that has remained largely untapped outside academic and 
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe5He8gA0NIXcitxQ518leMbq4SHmk1AGK5UIyB84FRTxVHuuV6ZZI5sIAkDk8ju1JPJ5ymlLtkS9sJTl_9eXMEx3ik6jipZWQWHWTLP8QUErKunqMAVHa87EUWmcvj_FMwidGpoFrcn5mNeF8ZqmhiROoC?key=xq9DIGmHIkz2SmxgD55q5A)
 
-In practice, TIG has an intricate framework for managing the IP of stakeholders in the network. The distribution licenses ensure the TIG Foundation is rewarded for their IP, and the game licenses ensure that each participant is rewarded for their contributions to the TIG Foundation.
+In practice, TIG has an [intricate framework](https://github.com/tig-foundation/tig-monorepo/blob/satisfiability/sprint_sat/docs/guides/anatomy.md) for managing the IP of stakeholders in the network. The distribution licenses ensure the TIG Foundation is rewarded for their IP, and the game licenses ensure that each participant is rewarded for their contributions to the TIG Foundation.
 
 ## Game Licenses
 
