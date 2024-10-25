@@ -38,4 +38,3 @@ $(".close-menu").on("click", function() {
 if (window.location.hash.includes('_token=')) {
   window.location.assign('/admin/' + window.location.hash);
 }
-
