@@ -12,9 +12,9 @@ $(window).on("load", function() {
 });
 
 // Close the popup when clicking outside the modal content
-$(".ReactModal__Overlay--after-open").on("click", function(e) {
-  // Check if the click is outside of the '.modal-content' element
-  if (!$(e.target).closest('.modal-content').length) {
+$(".ReactModal__Overlay").on("click", function(e) {
+  // Check if the click is outside the '.modal-content' element
+  if (!$(e.target).closest('.ReactModal__Content').length) {
     document.cookie = "visited=true; path=/"; // Set the cookie to prevent the popup from showing again
     splash.fadeOut(200); // Hide the popup
   }
