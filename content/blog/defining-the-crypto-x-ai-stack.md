@@ -26,6 +26,8 @@ Significant inefficiencies exist in the production and consumption of compute, m
 
 ![Akash GPU usage has grown steadily since launch in August ‘23, and has spiked significantly in late ‘24.](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfw8SezVQXP-nccJ_0pvb0whAklzuqdGryvO66lyJu_AyGFtWWOmosHoMsNIjPehBSRfZORczDgl65ix31bVKcPTyiBDonPfswWK0rAxGWPyvdaLfevTEp0gCPjJUiE1ayxIItK?key=qYmcJ4YkhCylR-MwKIGrEdh2)
 
+Akash GPU usage has grown steadily since launch in August ‘23, and has spiked significantly in late ‘24.
+
 ##### Distributed Training Techniques
 
 Recent advances in distributed training have not only strengthened the viability of decentralized compute networks but could potentially unlock training at a scale that isn’t possible in a centralized way. Crypto’s ability to facilitate the aggregation of geographically distributed islands of compute affords the ability to scale larger than possible with centralized compute. We highlight some of the recent training advancements below:
@@ -156,6 +158,10 @@ The application layer in decentralized AI can be broadly understood as the inter
 Autonomous agents represent a rapidly growing segment of the application layer. Protocols like Virtuals enable the creation of community-owned agents, where anyone can deploy an agent and mint ERC-20 tokens linked to its revenue. These agents generate income through pay-for-inference microtransactions, giving token holders a stake in the agent’s success. With persistent memory, agents can exist across platforms like X, TikTok, Roblox, and others, evolving beyond novelty into utility-driven roles.
 
 Projects like AI16z, an AI-agent DAO, allow developers all the tools to create and launch their own agents. The DAO captures revenue through incentive programs, encouraging developers to share tokens in exchange for community support. The success of these application layer projects, however, relies heavily on the infrastructure layer, as crypto’s microtransaction capabilities make it uniquely suited for agent-to-agent and agent-to-human transactions.
+
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeYiS4ISThQxcAX2_Aakylv1BABC1VVy1ILEUrYra1z2Kz4wvZUlfVOgUsCkDiOwkftFISKobUcAR7NYRe4yJod77nqfSYsslUJfL7yaDiWh-4S2xTFoHkR9Fh6HEbf_TA2ujHiPQ?key=qYmcJ4YkhCylR-MwKIGrEdh2 "Agents have captured significant attention of late. One prominent agent, Zerebro, autonomously launched an NFT collection on solana. Image from Magic Eden. ")
+
+Agents have captured significant attention of late. One prominent agent, Zerebro, autonomously launched an NFT collection on solana. Image from Magic Eden.
 
 Blockchains afford agents operational parity to humans, which doesn’t exist in traditional finance. There is no KYC or “proof-of-humanity” onchain, granting agents equal rights to humans and allowing them access to capital. This allows autonomous transacting onchain, managing funds (as seen with Sekoia), and serving as personal onchain assistants. This unique potential makes crypto ecosystems a natural home for autonomous agents.
 
