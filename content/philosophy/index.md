@@ -1,7 +1,7 @@
 ---
-title: Philosophy
-layout: philosophy
-slug: philosophy
+title: About
+layout: about
+slug: about
 ---
 We believe that Web3/Crypto will drive digital innovation over the coming decades, creating significant value for investors. Plaintext is an investment firm that exclusively backs Web3 companies and protocols.
 
