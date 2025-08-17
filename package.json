@@ -1,5 +1,14 @@
 {
+  "name": "netlifycms",
+  "scripts": {
+    "dev": "hugo server",
+    "build": "hugo"
+  },
   "dependencies": {
-    "framer": "^2.4.1"
+    "framer": "^2.4.1",
+    "@cloudflare/kv-asset-handler": "^0.3.0"
+  },
+  "devDependencies": {
+    "hugo-bin": "^0.120.4"
   }
 }
