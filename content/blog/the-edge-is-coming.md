@@ -27,7 +27,7 @@ Shortcomings
 
 Currently, we are hovering around the second stage (at least with our use of LLMs); humans are a bottleneck in the feedback loop for AI. Humans serving as the bridge between environmental stimuli and AI creates a series of shortcomings that hold back both the progress of AI, and the impact that AI can have on the world. As we use AI today in most contexts, the flow is as follows:
 
-![](/images/edge_workflow.png)
+![](/images/edge.jpeg)
 
 This system is a result of the current AI workflow which relies on centralized model training and inference. There are a series of shortcomings resulting from this system.
 
@@ -83,8 +83,6 @@ A massive web of edge nodes exists today. The underutilized hardware, coupled wi
 The total edge compute market offers over 12 exaflops. For reference, this is enough \*raw compute\* to train GPT-4 in 30 minutes (this is strictly for illustrative purposes; there are a lot of coordination questions around the actual feasibility of that). There are stipulations regarding the percentage of idle time and the percentage of the market that can be captured, but edge computing is an enormous market.
 
 ![](/images/marketsizing.png)
-
-
 
 To create this edge-AI world, the real barrier is not hardware, but software, incentives, and coordination. The idle compute already exists; edge devices are already performant enough to execute.
 
