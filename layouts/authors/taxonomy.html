@@ -38,8 +38,8 @@
                 </a>
               </div>
               <div class="mb-8">
-                {{ $postbyauthor := site.GetPage .Params.name }}
-                {{ range $postbyauthor.Pages }}
+                {{ $postbyauthor := .Pages }}
+                {{ range $postbyauthor }}
                   <a href="{{ .Permalink }}" alt="{{ .Title }}">{{ .Title }}</a><br>
                 {{ end }}
               </div>
