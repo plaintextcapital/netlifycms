@@ -23,7 +23,7 @@ We are seeing LLM use evolve in four distinct phases:
 
 **Fourth**: AI is integrated across all devices, approaching and eventually exceeding human-level data collection (wearables + bio augmentation allows AI access to raw environmental stimuli without human interpretation)
 
-Shortcomings
+**Shortcomings**
 
 Currently, we are hovering around the second stage (at least with our use of LLMs); humans are a bottleneck in the feedback loop for AI. Humans serving as the bridge between environmental stimuli and AI creates a series of shortcomings that hold back both the progress of AI, and the impact that AI can have on the world. As we use AI today in most contexts, the flow is as follows:
 
@@ -53,7 +53,7 @@ This system is a result of the current AI workflow which relies on centralized m
 * User data, if it is to help train AI, is passed to a centralized server for training thus leaving the edge device owned by that user
 * Users can either opt in and risk data privacy violations or opt out and stifle model growth
 
-**Edge training as a solution**
+**Edge Training as a Solution**
 
 A massive web of edge nodes exists today. The underutilized hardware, coupled with coordination/incentive networks and edge computing, can be used to solve each of the shortcomings detailed above.
 
@@ -78,7 +78,7 @@ A massive web of edge nodes exists today. The underutilized hardware, coupled wi
 * Users can keep all their private data onboard. Model training occurs continually and on local devices
 * Others can still benefit from your knowledge, but in the form of federated, distributed, sharing of model weights rather than the transport/storage of any private data
 
-**The edge market today**
+**The Edge Market Today**
 
 The total edge compute market offers over 12 exaflops. For reference, this is enough \*raw compute\* to train GPT-4 in 30 minutes (this is strictly for illustrative purposes; there are a lot of coordination questions around the actual feasibility of that). There are stipulations regarding the percentage of idle time and the percentage of the market that can be captured, but edge computing is an enormous market.
 
