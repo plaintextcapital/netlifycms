@@ -7,7 +7,7 @@ image: /images/chatgpt-image-aug-15-2025-10_38_08-pm.png
 ---
 ![]()
 
-AI is facing growing pains. Data centers are at capacity, energy constraints are abundant, and an arms race is ensuing for GPUs. We are becoming both compute-constrained and data constrained; we can't scale monolithic data centers forever, and we've already scraped the entirety of the public internet to train foundation models. The role of humans in the current AI workflow yields a significant setback-- they are inefficient middle-men, causing significant drag on continual learning and execution ability of AI. They cause both time-lag and data loss that restrict AI quality. The comprehensive and inevitable solution to these woes lies in edge computing– these devices are an opportunity to be the world's largest distributed datacenter, offering a massive amount of mostly-idle, untapped compute. Edge devices are powerful enough to handle many AI workloads, and as they continue to improve in quality, they will allow AI to exist on the edge rather than in centralized data centers. This will unlock the ability for models to both be personalized via continual learning, as each user’s unique model exists on-device.\
+AI is facing growing pains. Data centers are at capacity, energy constraints are abundant, and an arms race is ensuing for GPUs. We are becoming both compute-constrained and data constrained; we can't scale monolithic data centers forever, and we've already scraped the entirety of the public internet to train foundation models. The role of humans in the current AI workflow yields a significant setback-- they are inefficient middle-men, causing significant drag on continual learning and execution ability of AI. They cause both time-lag and data loss that restrict AI quality. The comprehensive and inevitable solution to these woes lies in edge computing. Edge devices(smartphones, laptops, tablets) are an opportunity to be the world's largest distributed datacenter, offering a massive amount of mostly-idle, untapped compute. They are powerful enough to handle many AI workloads, and as they continue to improve in quality, they will allow AI to exist on the edge rather than in centralized data centers. This will unlock the ability for models to be personalized via continual learning, because each user’s unique model exists on-devices.\
 \
 **Overview**
 
@@ -55,11 +55,11 @@ This system is a result of the current AI workflow which relies on centralized m
 
 **Edge Training as a Solution**
 
-A massive web of edge nodes exists today. The underutilized hardware, coupled with coordination/incentive networks and edge computing, can be used to solve each of the shortcomings detailed above.
+A massive web of edge nodes exists today. Underutilized hardware, coupled with coordination/incentive networks and edge computing, can be used to solve each of the shortcomings detailed above.
 
 1. A mesh grid (models communicating directly with each other) of edge devices can provide more complete data capture
 
-* Data quality will only be as complete as the sensors used to capture it, but unlocking coordination grids allow for a web of interconnected devices to serve as the eyes and ears of AI
+* Data quality will only be as complete as the sensors used to capture it, but coordination grids will allow for a web of interconnected devices to serve as the eyes and ears of AI
 * Sensors capturing data from wearables and other edge devices, and responding with onboard inference removes the human inefficiencies from the response loop
 
 2. With continual edge device training, the current model is always the newest model
@@ -96,4 +96,4 @@ Advancements in model deployment are critical as well.
 
 Continual training techniques also need to improve, and there are a lot of questions to be answered— how can we prevent model drift? How can we identify critical data? How do we create general-enough objective functions that also ensure proper alignment? How can we identify generalizable reactions vs personalized reactions (ie, what are the primitives that need to be shared between peering models)?
 
-T﻿here are a lot of unanswered questions, but these question marks provide opportunities for massive outperformance for investors that are able to navigate this landscape early. AI integration with edge devices is inevitable.
+The edge is still full of question marks, but that’s where the upside lives. As AI pushes inevitably into every device, those who move early, and with conviction, will be positioned to capture the lion’s share of the rewards.
