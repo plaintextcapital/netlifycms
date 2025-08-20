@@ -8,7 +8,8 @@
         <div class="w-full max-w-screen-xl">
           <div class="team-container grid grid-cols-1 md:grid-cols-2 gap-8" data-sb-field-path=".people">
             {{ $authors := where .Site.Pages "Type" "authors" }}
-            {{ $authors := where $authors "Kind" "page" }}
+            {{ $authors := where $authors "Kind" "term" }}
+            {{ $authors := where $authors ".Params.name" "!=" nil }}
             {{ range sort $authors ".Params.weight" }}
                 <div class="relative team_wrapper" data-sb-field-path=".0">
                   <h3 data-sb-field-path=".firstName" style="writing-mode: vertical-rl;" class="rotate-180 absolute left-3 bottom-7 md:bottom-6 team_name">{{ .Params.name }}</h3>
